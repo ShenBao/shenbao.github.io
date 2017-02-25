@@ -4,7 +4,7 @@ title:      "Hello 2017"
 subtitle:   " \"Hello World, Hello ShenBao Blog\""
 date:       2017-02-24 22:00:00
 author:     "ShenBao"
-header-img: "img/post-bg-2017.jpg"
+header-img: "img/common/03.jpg"
 catalog: true
 tags:
     - 生活

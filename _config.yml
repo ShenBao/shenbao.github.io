@@ -1,7 +1,7 @@
 # Site settings
 title: ShenBao Blog
 SEOTitle: 沈宝的博客 | ShenBao Blog
-header-img: img/home-bg.jpg
+header-img: img/config/home-bg.jpg
 email: shenbaoone@gmail.com
 description: " | 这里是 @ShenBao 沈宝 的个人博客，与你一起发现更大的世界。"
 keyword: "沈宝, ShenBao,秋思浪人,, @shenbao, 沈宝的博客, ShenBao Blog, 博客, 个人网站, 互联网, 前端"
@@ -14,7 +14,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: false
 weibo_username:     
 zhihu_username:     
-github_username:    shenbao
+github_username:    ShenBao
 #twitter_username:  
 facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
@@ -90,7 +90,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    }
+        title: "原博客",
+        href: "https://shenbao.github.io/blog"
+    },
+    {
+        title: "React技术栈",
+        href: "https://shenbao.github.io/ishehui"
+    },
+    # {
+    #     title: "前端外刊评论",
+    #     href: "http://qianduan.guru/"
+    # },
+    
 ]
