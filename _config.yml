@@ -4,8 +4,8 @@ SEOTitle: 沈宝的博客 | ShenBao Blog
 header-img: img/config/home-bg.jpg
 email: shenbaoone@gmail.com
 description: " | 这里是 @ShenBao 沈宝 的个人博客，与你一起发现更大的世界。"
-keyword: "沈宝, ShenBao,秋思浪人,, @shenbao, 沈宝的博客, ShenBao Blog, 博客, 个人网站, 互联网, 前端"
-url: "https://shenbao.github.io"              # your host, for absolute URL
+keyword: "沈宝, ShenBao, @shenbao,沈宝的博客,秋思浪人,QiusiLangren，秋思浪人的博客,  ShenBao Blog, 博客, 个人网站, 互联网, 前端，web developer"
+url: "https://ShenBao.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
