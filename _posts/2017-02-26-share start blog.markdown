@@ -4,7 +4,7 @@ title:      "基于GitHub和Jekyll的博客搭建"
 subtitle:   "分享一下博客建立的过程"
 date:       2017-02-26
 author:     "ShenBao"
-header-img: "img/shareblog.jpg"
+header-img: "img/common/04.jpg"
 catalog: true
 tags:
     - 博客
