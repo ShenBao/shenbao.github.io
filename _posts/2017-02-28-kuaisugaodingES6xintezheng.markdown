@@ -215,7 +215,7 @@ console.log(a + b + c + e); // 'hello'
 
 ## 7.Default + Rest + Spread
 
-### Default 默认参数值
+#### Default 默认参数值
 
 现在可以在定义函数的时候指定参数的默认值了，而不用像以前那样通过逻辑或操作符来达到目的了。
 
@@ -235,7 +235,7 @@ sayHello2();//输出：Hello dude
 sayHello2('zf');//输出：Hello zf
 ```
 
-### Rest 剩余参数
+#### Rest 剩余参数
 
 不定参数是在函数中使用命名参数同时接收不定数量的未命名参数。这只是一种语法糖，在以前的JavaScript代码中我们可以通过 `arguments` 变量来达到这一目的。
 
@@ -263,7 +263,7 @@ console.log(add(1,2,3));//输出：6
 console.log(add(1,2,3,4,5));//输出：15
 ```
 
-### Spread  扩展操作符
+#### Spread  扩展操作符
 
 扩展操作符则是另一种形式的语法糖，它允许传递数组或者类数组直接做为函数的参数而不用通过apply。
 
