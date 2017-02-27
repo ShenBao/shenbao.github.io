@@ -8,6 +8,7 @@ header-img: "img/common/1003.jpg"
 catalog: true
 tags:
     - JavaScript
+    - ES6
 ---
 
 # 快速搞定常用的ES6新特性
