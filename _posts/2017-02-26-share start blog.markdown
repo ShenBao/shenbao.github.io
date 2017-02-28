@@ -7,7 +7,7 @@ author:     "ShenBao"
 header-img: "img/common/04.jpg"
 catalog: true
 tags:
-    - 博客
+
 ---
 
 # Foreword
