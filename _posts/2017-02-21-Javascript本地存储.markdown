@@ -67,7 +67,7 @@ document.cookie="userId=828; expiress=GMT_String";
     document.cookie="userId=828; expires="+date.toGMTString(); 
 ```
 
-### js对cookie操作方法代码
+#### js对cookie操作方法代码
 
 ```
 /**
@@ -140,6 +140,7 @@ document.cookie="userId=828; expiress=GMT_String";
 - sessionStorage.setItem(key, value)添加数据，键值为key，值为value
 - sessionStorage.removeItem(key)移除键值为key的数据
 - sessionStorage.clear()清除所有数据
+
 ---
 ## globalStorage
 
