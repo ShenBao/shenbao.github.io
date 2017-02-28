@@ -7,7 +7,7 @@ author:     "ShenBao"
 header-img: "img/common/1006.jpg"
 catalog: true
 tags:
-    - 生活
+    - JavaScript
 ---
 
 
