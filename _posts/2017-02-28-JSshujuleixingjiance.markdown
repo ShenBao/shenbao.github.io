@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "JS数据类型检测的方法"
-subtitle:   " "
+subtitle:   "判断js中的数据类型几种方法typeof、instanceof、 constructor、 prototype、 $.type()/jquery.type()"
 date:       2017-02-28 13:00:00
 author:     "ShenBao"
 header-img: "img/common/1006.jpg"
@@ -11,7 +11,7 @@ tags:
 ---
 
 
-JavaScript数据类型是非常简洁的，它只定义了6中基本数据类型
+JavaScript数据类型是非常简洁的，它只定义了7中基本数据类型（最后一个ES6新增的）
 
 - null：空、无。表示不存在，当为对象的属性赋值为null，表示删除该属性
 - undefined：未定义。当声明变量却没有赋值时会显示该值。可以为变量赋值为undefined
@@ -19,10 +19,11 @@ JavaScript数据类型是非常简洁的，它只定义了6中基本数据类型
 - string：字符串。最抽象的数据类型，信息传播的载体
 - boolean：布尔值。最机械的数据类型，逻辑运算的载体
 - object：对象。面向对象的基础
+
 - Symbol: ES6新增的
 
 
-判断js中的数据类型有一下几种方法：typeof、instanceof、 constructor、 prototype、 $.type()/jquery.type(),接下来主要比较一下这几种方法的异同。
+判断js中的数据类型有以下几种方法：typeof、instanceof、 constructor、 prototype、 $.type()/jquery.type(),接下来主要比较一下这几种方法的异同。
 
 
 ## typeof用来检测数据类型的运算符
