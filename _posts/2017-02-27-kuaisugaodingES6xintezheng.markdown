@@ -2,7 +2,7 @@
 layout:     post
 title:      "快速搞定常用的ES6新特性"
 subtitle:   "分享一下最近在开发React、React Native中最常使用的ES6"
-date:       2017-02-28 22:00:00
+date:       2017-02-27 22:00:00
 author:     "ShenBao"
 header-img: "img/common/1003.jpg"
 catalog: true
@@ -550,4 +550,4 @@ import * as React from 'react';
 多的不在赘述，以上的一些知识可以当成学习ES6的一个快餐，不成体系，希望能够帮助你快速的掌握一些ES6常用的语法，有时间有精力建议买本阮一峰老师的《ES6入门》通读一遍。
 
 
-—— ShenBao 于 2017.02.28
+—— ShenBao 于 2017.02.27
