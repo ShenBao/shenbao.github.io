@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Hello 2017"
-subtitle:   " \"Hello World, Hello ShenBao Blog\""
-date:       2017-02-24 22:00:00
+title:      "Hello Blog"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2016-11-11 22:00:00
 author:     "ShenBao"
 header-img: "img/common/01.jpg"
 catalog: true
@@ -15,7 +15,7 @@ tags:
 
 ShenBao 的 Blog 就这么开通了。
 
-2017 年，ShenBao 总算有个地方可以好好写点东西了。
+现在2016年末了，从现在起 ShenBao 总算有个地方可以好好写点东西了。
 
 
 作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。
@@ -41,4 +41,4 @@ ShenBao 的 Blog 就这么开通了。
 <br/><br/>
 【全文完】
 
-—— ShenBao 于 2017.02.24
+—— ShenBao 于 2016.11.11
