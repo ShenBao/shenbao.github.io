@@ -9,6 +9,9 @@
     padding-right: 5%;
   }
 }
+/*.post-container {文章右边没有对齐，呈锯齿状比较难看
+  text-align: justify;
+}*/
 .sidebar-container {
   color: #bfbfbf;
   font-size: 14px;
