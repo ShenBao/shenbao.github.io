@@ -2,7 +2,7 @@
 layout:     post
 title:      "JS数据类型检测的方法"
 subtitle:   "判断js中的数据类型几种方法typeof、instanceof、 constructor、 prototype、 $.type()/jquery.type()"
-date:       2017-02-28 13:00:00
+date:       2017-02-23 13:00:00
 author:     "ShenBao"
 header-img: "img/common/1006.jpg"
 catalog: true
@@ -120,4 +120,4 @@ jQuery.type( /test/ ) === "regexp"
 <br/><br/>
 【全文完】
 
-—— ShenBao 于 2017.02.28
+—— ShenBao 于 2017.02.23
