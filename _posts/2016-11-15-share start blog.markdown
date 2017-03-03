@@ -174,7 +174,7 @@ git push origin master
 
 ## 7. 制作属于你的Blog
 如果只有上面这些步骤，那你的 Blog 中都是别人的东西。<br><br>
-如何编写自己的 Blog ？在此推荐一个软件[Brackets](http://brackets.io/)，用着十分方便。
+如何编写自己的 Blog ？在此推荐一个软件VS code，用着十分方便。
 <br><br>
 
 ![/img/201611/15/4.PNG](/img/201611/15/4.PNG "/img/201611/15/4.PNG")
