@@ -2,9 +2,9 @@
 layout:     post
 title:      "基于GitHub和Jekyll的博客搭建"
 subtitle:   "分享一下博客建立的过程"
-date:       2017-02-26
+date:       2016-11-15  20:00:00
 author:     "ShenBao"
-header-img: "img/common/04.jpg"
+header-img: "img/common/1020.jpg"
 catalog: true
 tags:
 
@@ -52,7 +52,7 @@ sudo gem install jekyll
 <br><br>
 ruby的安装需要注意一点，就是将ruby的可执行文件加入到环境变量的PATH中，如下图，将其勾上，然后安装即可。
 
-<img class="shadow" width="550" src="/img/20170226/1.PNG" />
+![/img/201611/15/1.PNG](/img/201611/15/1.PNG "/img/201611/15/1.PNG")
 
 接下来我们安装 Ruby DevKit。双击我们刚才下载的 DevKit-mingw64-64-4.7.2-20130224-1432-sfx ，将其解压到某个文件夹下，这里我选择的是 C:\RubyDevKit，解压完毕后，以此输入如下命令：
 ```
@@ -98,7 +98,7 @@ jekyll serve
 ```
 然后打开浏览器，输入 http://127.0.0.1:4000/，就可以看到你的原生态博客了。
 
-<img class="shadow" width="650" src="/img/20170226/3.PNG" />
+![/img/201611/15/3.PNG](/img/201611/15/3.PNG "/img/201611/15/3.PNG")
 
 ## 5.用GitHub展示你的博客
 
@@ -177,7 +177,7 @@ git push origin master
 如何编写自己的 Blog ？在此推荐一个软件[Brackets](http://brackets.io/)，用着十分方便。
 <br><br>
 
-<img class="shadow" width="1000" src="/img/20170226/4.PNG" />
+![/img/201611/15/4.PNG](/img/201611/15/4.PNG "/img/201611/15/4.PNG")
 
 好了，快去开启你 Blog 的新世界吧！
 
