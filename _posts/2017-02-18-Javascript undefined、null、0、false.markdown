@@ -13,23 +13,23 @@ tags:
 由0 == ''结果是true思考，单独做了一下测试，记录于此。
 
 ```
-console.log(0 == ''); //true
-console.log(0 == false); //true
-console.log(false == ''); //true
-console.log(null == undefined); //true
+console.log(0 == '');               //true
+console.log(0 == false);            //true
+console.log(false == '');           //true
+console.log(null == undefined);     //true
 
-console.log(!0); //true
-console.log(!false); //true
-console.log(!undefined); //true
-console.log(!null); //true
-console.log(!''); //true
+console.log(!0);                    //true
+console.log(!false);                //true
+console.log(!undefined);            //true
+console.log(!null);                 //true
+console.log(!'');                   //true
 
-console.log(0 == undefined); //false
-console.log(0 == null); //false
-console.log(false == null); //false
-console.log(false == undefined);//false
-console.log('' == null); //false
-console.log('' == undefined); //false
+console.log(0 == undefined);        //false
+console.log(0 == null);             //false
+console.log(false == null);         //false
+console.log(false == undefined);    //false
+console.log('' == null);            //false
+console.log('' == undefined);       //false
 ```
 
 JavaScript中所有的"空值"和"假值"，除了boolean值本身就是true和false这两种情况外，其它数据类型的"空值"主要是undefined和defined这两大类。这些空值的类型分别是：
@@ -41,6 +41,8 @@ typeof("") == 'string'
 typeof(0) == 'number'
 typeof(false) == 'boolean'
 ```
+
+（PS：关于类型检测之后会单独写一篇）
 
 <!--这五个值的共同点是，在if语句中做判断，都会执行false分支。当然从广义上来看，是说明这些数值都是其对应数据类型上的无效值或空值。还有这五个值作!运算，结果全为：true。-->
 
