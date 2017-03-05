@@ -13,6 +13,7 @@ tags:
 
 前两天看了小胡子哥写了一篇js中浮点数运算的一个比较特殊的 0.1+0.2 的问题， [揭秘 0.1 + 0.2 != 0.3](http://www.barretlee.com/blog/2016/09/28/ieee754-operation-in-js/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) ,于是查各种资料，将包括IEEE754关于浮点数二进制的只是又整理一下，做此记录。
 
+<!--https://shenbao.github.io/2017/02/16/Javascript-0.1+0.2-!=-0.3/-->
 
 ![01.png](/img/201702/16/01.png "01.png")
 上图是IEEE对浮点数表示的说明，这里分单精度与双精度之分，如下图：
