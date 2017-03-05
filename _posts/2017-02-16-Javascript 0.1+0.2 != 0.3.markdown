@@ -15,6 +15,8 @@ tags:
 
 <!--https://shenbao.github.io/2017/02/16/Javascript-0.1+0.2-!=-0.3/-->
 
+知乎上关于这个问题的探讨： [去知乎](https://www.zhihu.com/question/24415787)
+
 ![01.png](/img/201702/16/01.png "01.png")
 上图是IEEE对浮点数表示的说明，这里分单精度与双精度之分，如下图：
 ![02.png](/img/201702/16/02.png "02.png")
