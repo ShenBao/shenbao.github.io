@@ -109,6 +109,14 @@
                 return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
         }
 })(window,document);
+
+var jQueryRemovedsPoweredBy = setInterval(function(){
+    if($('.ds-powered-by').size != 0){
+        $('.ds-powered-by').remove();
+        clearInterval(jQueryRemovedsPoweredBy);
+    }
+},200);
+
 </script>
 
 </body>
