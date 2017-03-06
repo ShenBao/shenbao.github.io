@@ -110,7 +110,10 @@
         }
 })(window,document);
 
+var golNumber = 0;
 var jQueryRemovedsPoweredBy = setInterval(function(){
+    golNumber = golNumber + 1;
+    console.log(golNumber);
     if($('.ds-powered-by').size != 0){
         $('.ds-powered-by').remove();
         clearInterval(jQueryRemovedsPoweredBy);
