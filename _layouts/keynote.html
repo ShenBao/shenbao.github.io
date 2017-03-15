@@ -161,17 +161,6 @@ layout: default
                 </section>
                 {% endif %}
 
-                <!-- extend -->
-                {% if site.extends %}
-                <hr>
-                <h5>EXTENDS</h5>
-                <ul class="list-inline">
-                    {% for extend in site.extends %}
-                        <li><a href="{{extend.href}}">{{extend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
@@ -179,6 +168,17 @@ layout: default
                 <ul class="list-inline">
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                <!-- extend -->
+                {% if site.extends %}
+                <hr>
+                <h5>EXTENDS</h5>
+                <ul class="list-inline">
+                    {% for extend in site.extends %}
+                        <li><a href="{{extend.href}}">{{extend.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
