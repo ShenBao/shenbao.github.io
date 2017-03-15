@@ -91,10 +91,8 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
-# Friends
-friends: [
+# Extend
+extend: [
     {
         title: "原博客",
         href: "https://shenbao.github.io/blog"
@@ -102,10 +100,19 @@ friends: [
     {
         title: "React技术栈",
         href: "https://shenbao.github.io/ishehui"
-    },
-    # {
-    #     title: "前端外刊评论",
-    #     href: "http://qianduan.guru/"
-    # },
+    }
     
 ]
+
+# # Friends
+# friends: [
+#     {
+#         title: "原博客",
+#         href: "https://shenbao.github.io/blog"
+#     },
+#     {
+#         title: "React技术栈",
+#         href: "https://shenbao.github.io/ishehui"
+#     }
+    
+# ]
