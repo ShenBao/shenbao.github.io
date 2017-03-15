@@ -162,11 +162,11 @@ layout: default
                 {% endif %}
 
                 <!-- extend -->
-                {% if site.extend %}
+                {% if site.extends %}
                 <hr>
-                <h5>EXTEND</h5>
+                <h5>EXTENDS</h5>
                 <ul class="list-inline">
-                    {% for extend in site.extend %}
+                    {% for extend in site.extends %}
                         <li><a href="{{extend.href}}">{{extend.title}}</a></li>
                     {% endfor %}
                 </ul>
