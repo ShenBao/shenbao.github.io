@@ -1,11 +1,11 @@
 # Site settings
 title: ShenBao Blog
-SEOTitle: 沈宝的博客 | ShenBao Blog
+SEOTitle: 沈宝的博客 | ShenBao Blog | 秋思浪人的博客 | QiuSiLangRen Blog
 header-img: img/config/home-bg.jpg
 email: shenbaoone@gmail.com
 description: " | 这里是 @ShenBao 沈宝 的个人博客，与你一起发现更大的世界。"
 keyword: "沈宝, ShenBao, @shenbao,沈宝的博客,秋思浪人,QiusiLangren，秋思浪人的博客,  ShenBao Blog, 博客, 个人网站, 互联网, 前端，web developer"
-url: "http://shenbao.github.io"              # your host, for absolute URL
+url: "https://shenbao.github.io"              # your host, for absolute URL
 createTime: '2015'
 
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -95,23 +95,6 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "原博客",
-        href: "https://shenbao.github.io/blog"
-    },
-    {
-        title: "React技术栈",
-        href: "https://shenbao.github.io/ishehui"
-    },
-    # {
-    #     title: "前端外刊评论",
-    #     href: "http://qianduan.guru/"
-    # },
-    
-]
-
-# extends
-extends: [
     {
         title: "原博客",
         href: "https://shenbao.github.io/blog"
