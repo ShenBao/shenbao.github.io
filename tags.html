@@ -1,11 +1,11 @@
 ---
 title: Tags
-layout: page
+layout: default
 description: keep hungry keep foolish
 header-img: "img/config/tag-bg.jpg"
 ---
 
- <!--Page Header 
+<!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
@@ -17,12 +17,12 @@ header-img: "img/config/tag-bg.jpg"
             </div>
         </div>
     </div>
-</header>-->
+</header>
 
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- 标签云 -->
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
