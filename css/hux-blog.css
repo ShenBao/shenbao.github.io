@@ -966,7 +966,7 @@ img::-moz-selection {
 }
 
 
-/* back-top */
+/* back-top 返回顶部*/
 #back-top {
   position: fixed;
   bottom: 110px;
@@ -1133,4 +1133,10 @@ img::-moz-selection {
 }
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
+}
+
+
+/*多说 by*/
+.ds-powered-by {
+  display: none !important;
 }
