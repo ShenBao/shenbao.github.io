@@ -109,3 +109,16 @@ friends: [
     # },
     
 ]
+
+
+# Extends
+extends: [
+    {
+        title: "原博客",
+        href: "https://shenbao.github.io/blog"
+    },
+    {
+        title: "React技术栈",
+        href: "https://shenbao.github.io/ishehui"
+    }
+]
