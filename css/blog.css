@@ -522,14 +522,14 @@ pre code {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 55px;
+  padding: 85px 0 55px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 220px 0;
+    padding: 150px 0;
   }
 }
 .intro-header .site-heading {
@@ -537,7 +537,7 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading {
-    padding: 220px 0;
+    padding: 150px 0;
   }
 }
 .intro-header .site-heading,
@@ -966,7 +966,7 @@ img::-moz-selection {
 }
 
 
-/* back-top 返回顶部*/
+/* back-top */
 #back-top {
   position: fixed;
   bottom: 110px;
@@ -1133,10 +1133,4 @@ img::-moz-selection {
 }
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
-}
-
-
-/*多说 by*/
-.ds-powered-by {
-  display: none !important;
 }
