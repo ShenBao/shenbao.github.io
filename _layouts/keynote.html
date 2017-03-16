@@ -171,6 +171,18 @@ layout: default
                     {% endfor %}
                 </ul>
                 {% endif %}
+
+                <!-- extends Blog -->
+                {% if site.extends %}
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    {% for extend in site.extends %}
+                        <li><a href="{{extend.href}}">{{extend.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
             </div>
         </div>
     </div>
