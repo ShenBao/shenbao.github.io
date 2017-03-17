@@ -26,7 +26,7 @@ description: "世界上没有不劳而获的事，一分耕耘一分收获！"
 {% endfor %}
 
 <!-- Pager -->
-<h5>Page: {{ paginator.page }} of {{ paginator.total_pages }}</h5>
+<h5 style="text-align: center;">Page: {{ paginator.page }} of {{ paginator.total_pages }}</h5>
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
