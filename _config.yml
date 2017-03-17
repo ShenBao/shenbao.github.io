@@ -8,7 +8,7 @@ keyword: "沈宝, ShenBao, @shenbao,沈宝的博客,秋思浪人,QiusiLangren，
 url: "https://shenbao.github.io"              # your host, for absolute URL
 createTime: '2015'
 
-baseurl: tags                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 # 导航栏
 # categories_path: categories
 tags_path: tags
