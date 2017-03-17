@@ -9,7 +9,7 @@
     padding-right: 5%;
   }
 }
-.post-container {文章右边没有对齐，呈锯齿状比较难看
+.post-container {  /*文章右边没有对齐，呈锯齿状比较难看*/
   text-align: justify;
 }
 .sidebar-container {
@@ -269,10 +269,6 @@ pre code {
   margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
-  /* 返回顶部贴右边 */
-	#back-top {
-	  right: 0em;	
-	}
   .post-container ul,
   .post-container ol {
     padding-left: 30px;
@@ -965,43 +961,6 @@ img::-moz-selection {
   line-height: 12px;
 }
 
-
-/* back-top */
-#back-top {
-  position: fixed;
-  bottom: 110px;
-  right: 2em;
-}
-#back-top a {
-  background: rgba(0, 0, 0, 0.45);
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s;
-  width: 40px;
-  height: 40px;
-  display: block;
-  font-size: 36px;
-  color: #fff;
-  text-align: center;
-  border-radius: 3px 3px;
-  text-decoration: none;
-}
-#back-top a:hover {
-  background-color: #0085a1;
-}
-
-#back-top i {
-    font-size: 24px;
-    line-height: 40px;
-    vertical-align: top;
-}
-/* 向上图标透明白色 */
-.fa-chevron-up:before {
-    color: rgba(252,252,252,0.81);
-}
-
 @media only screen and (min-width: 768px) {
   .one-tag-list .post-preview {
     margin-left: 20px;
@@ -1133,4 +1092,53 @@ img::-moz-selection {
 }
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
+}
+
+
+
+
+/* back-top */
+#back-top {
+  position: fixed;
+  bottom: 110px;
+  right: 2em;
+}
+#back-top a {
+  background: rgba(0, 0, 0, 0.45);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+  width: 40px;
+  height: 40px;
+  display: block;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px 3px;
+  text-decoration: none;
+}
+#back-top a:hover {
+  background-color: #0085a1;
+}
+
+#back-top i {
+    font-size: 24px;
+    line-height: 40px;
+    vertical-align: top;
+}
+/* 向上图标透明白色 */
+.fa-chevron-up:before {
+    color: rgba(252,252,252,0.81);
+}
+@media only screen and (max-width: 768px) {
+	/* 返回顶部贴右边 */
+	#back-top {
+	right: 0em;	
+	}}
+
+  /*多说 by*/
+.ds-powered-by {
+  display: none !important;
 }
