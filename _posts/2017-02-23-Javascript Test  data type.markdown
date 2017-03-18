@@ -115,9 +115,3 @@ jQuery.type( /test/ ) === "regexp"
 
 通常情况下用typeof 判断就可以了，遇到预知Object类型的情况可以选用instanceof或constructor方法,实在没辙就使用$.type()方法。
 
-
-
-<br/><br/>
-【全文完】
-
-—— ShenBao 于 2017.02.23

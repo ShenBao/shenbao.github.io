@@ -249,24 +249,3 @@ x     2
 [big.js](https://github.com/MikeMcl/big.js "https://github.com/MikeMcl/big.js")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br/><br/>
-【全文完】
-
-—— ShenBao 于 2017.02.18

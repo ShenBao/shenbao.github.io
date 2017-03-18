@@ -1441,9 +1441,3 @@ var a = {
 
 > 本文源自这里 https://github.com/airbnb/javascript，感谢作者！！！
 
-
-
-<br/><br/>
-【全文完】
-
-—— ShenBao 于 2016.11.14

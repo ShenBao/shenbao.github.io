@@ -63,3 +63,14 @@
     padding: 10px 0px;
   }
 }
+
+.post-preview>a>.post-title {
+    font-size: 26px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: #0085a1;
+}
+
+legend,.raqu,.color-0085a1{
+		color: #0085a1;
+}

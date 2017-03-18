@@ -258,10 +258,3 @@ tags:
     .adw-gallery {}
   ```
 
-
-
-
-<br/><br/>
-【全文完】
-
-—— ShenBao 于 2016.11.12

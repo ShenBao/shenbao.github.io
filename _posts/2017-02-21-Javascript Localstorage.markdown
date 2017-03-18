@@ -160,10 +160,3 @@ document.cookie="userId=828; expiress=GMT_String";
 
 获取 key 值：value = window.globalStorage["planabc.net"].key;
 
-
-
-
-<br/><br/>
-【全文完】
-
-—— ShenBao 于 2017.02.21

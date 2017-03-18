@@ -40,7 +40,7 @@ header-img: "img/config/tag-bg.jpg"
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
+                    <strong >{{ tag[0] }}</strong>
                 </span>
 				{% for post in tag[1] %}
 				  <!-- <li class="listing-item">
