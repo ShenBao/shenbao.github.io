@@ -1136,7 +1136,8 @@ img::-moz-selection {
 	/* 返回顶部贴右边 */
 	#back-top {
 	right: 0em;	
-	}}
+	}
+}
 
   /*多说 by*/
 .ds-powered-by {
@@ -1152,4 +1153,11 @@ img::-moz-selection {
 	background-image: linear-gradient(rgba(255, 255, 255, 0) 60%, rgba(187, 2, 195, 0.34)), linear-gradient(70deg, rgba(22, 20, 187, 0.56) 32%, rgba(222, 100, 117, 0.58));
 	background-attachment: scroll;
 	background-size: cover;
+}
+
+/*categories.html main css*/
+@media only screen and (max-width: 768px) {
+	.nav-tabs-vertical li>a,.tab-content {
+    padding: 10px 0px;
+  }
 }

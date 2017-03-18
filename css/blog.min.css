@@ -57,3 +57,9 @@
 	background-attachment: scroll;
 	background-size: cover;
 }
+/*categories.html main css*/
+@media only screen and (max-width: 768px) {
+	.nav-tabs-vertical li>a,.tab-content {
+    padding: 10px 0px;
+  }
+}
