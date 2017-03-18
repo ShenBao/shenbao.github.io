@@ -1142,3 +1142,7 @@ img::-moz-selection {
 .ds-powered-by {
   display: none !important;
 }
+/*categories页面数字颜色*/
+.badge {
+    background: #0085a1;
+}
