@@ -4,11 +4,11 @@ title:      "Hello Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2016-11-11 22:00:00
 author:     "ShenBao"
-header-img: "img/common/01.jpg"
 catalog: true
 tags:
     - 生活
 ---
+<!--header-img-show-->
 
 
 ## 正文
