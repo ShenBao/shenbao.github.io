@@ -10,7 +10,6 @@ createTime: '2015'
 
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 # 导航栏
-# categories_path: categories
 categories_path: categories
 tags_path: tags
 archive_path: archives
