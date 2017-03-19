@@ -8,7 +8,6 @@ catalog: true
 tags:
     - 生活
 ---
-<!--header-img-show-->
 
 
 ## 正文
