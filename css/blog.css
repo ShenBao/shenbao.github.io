@@ -1172,3 +1172,30 @@ img::-moz-selection {
 legend,.raqu,.color-0085a1{
 		color: #0085a1;
 }
+
+/*about github*/
+@media only screen and (min-width: 768px) {
+  .gotogithub {
+    width: 150px;
+    opacity: 0 !important;
+  }
+
+  .forkgithub {
+      position: absolute;
+      z-index: 99;
+      right: 0;
+      background: rgba(255,255,255,0) url(/img/config/forkgithub.png) 14px -15px no-repeat;
+  }
+  .forkgithub a {
+      display: block;
+      width: 149px;
+      height: 1px;
+      padding-top: 149px;
+      overflow: hidden;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .forkgithub {
+    display: none !important;
+  }
+}
