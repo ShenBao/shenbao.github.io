@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "将Sublime Text3添加到右键菜单中"
-subtitle:   "用将Sublime Text3演示Windows注册和取消注册一个dll或者ocx的方法"
+subtitle:   "用Sublime Text3演示Windows注册和取消注册一个dll或者ocx的方法"
 date:       2017-03-21  15:00:00
 author:     "ShenBao"
 catalog: true
