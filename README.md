@@ -29,3 +29,5 @@ Created by ShenBao on 2016.03.21
 - 兼容移动版本GITHUB导航与PC fork me on github对应
 - 添加home ：当前页/总页数
 - 隐藏多说“by 多说”
+- 添加bg-color
+- 添加底部及右侧EXTENDS
