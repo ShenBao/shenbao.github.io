@@ -2,7 +2,7 @@
 layout:     post
 title:      "将Sublime Text3添加到右键菜单中"
 subtitle:   "用Sublime Text3演示Windows注册和取消注册一个dll或者ocx的方法"
-date:       2017-03-21  15:00:00
+date:       2017-03-20  15:00:00
 author:     "ShenBao"
 catalog: true
 tags:
@@ -75,7 +75,7 @@ Windows Registry Editor Version 5.00
 
 [Windows 注册和取消注册一个dll或者ocx](https://my.oschina.net/adairs/blog/634643)<br>
 [https://tieba.baidu.com/p/4204454313](https://tieba.baidu.com/p/4204454313)<br>
-[http://blog.csdn.net/rurud/article/details/52959165）](http://blog.csdn.net/rurud/article/details/52959165)
+[http://blog.csdn.net/rurud/article/details/52959165](http://blog.csdn.net/rurud/article/details/52959165)
 
 
 
