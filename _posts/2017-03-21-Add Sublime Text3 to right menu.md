@@ -47,18 +47,18 @@ PS:需要把里边的Sublime的安装目录，替换成实际的Sublime安装目
 Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\*\shell\SublimeText3]
 @="用 SublimeText3 打开"
-"Icon"="D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0"
+"Icon"="C:\\Program Files\\Sublime Text 3\\sublime_text.exe,0"
 
 [HKEY_CLASSES_ROOT\*\shell\SublimeText3\command]
-@="D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1"
+@="C:\\Program Files\\Sublime Text 3\\sublime_text.exe %1"
 
 
 [HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
 @="用 SublimeText3 打开"
-"Icon"="D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0"
+"Icon"="C:\\Program Files\\Sublime Text 3\\sublime_text.exe,0"
 
 [HKEY_CLASSES_ROOT\Directory\shell\SublimeText3\command]
-@="D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1"
+@="C:\\Program Files\\Sublime Text 3\\sublime_text.exe %1"
 ```
 
 ## 删除右键菜单的脚本
