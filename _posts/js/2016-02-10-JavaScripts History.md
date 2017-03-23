@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "JavaScript语言的历史"
-subtitle:   "总结一下JavaScript的历史"
+subtitle:   ""
 date:       2016-02-10 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
