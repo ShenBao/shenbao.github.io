@@ -68,7 +68,10 @@ layout: default
                     <b>【 THE END 】</b>
                 </p>
                 <p>
-                    -------- {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
+                    -------- <a  href="https://github.com/{{site.github_username}}">
+                        {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
+                    </a>
+                     on {{ page.date | date: "%B %-d, %Y" }}
                 </p>
 
                 <hr style="visibility: hidden;">
