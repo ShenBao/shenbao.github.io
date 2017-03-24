@@ -125,5 +125,5 @@ legend,.raqu,.color-0085a1 {
   color: #000 !important;
 }
 article {
-     overflow-x: visible; 
+     overflow-x: visible !important;
 }
