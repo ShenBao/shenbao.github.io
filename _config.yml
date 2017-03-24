@@ -31,7 +31,7 @@ facebook_username:
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 8
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: no # true                          # if you want to customize anchor. check out line:181 of `post.html`  文章中标题前面的 # 符号
 # timezone: CN                                # 时间设置
@@ -94,26 +94,26 @@ service-worker: true
 
 
 # Friends
-friends: [
-    # {
-    #     title: "原博客",
-    #     href: "https://shenbao.github.io/blog"
-    # },
-    # {
-    #     title: "React技术栈",
-    #     href: "https://shenbao.github.io/ishehui"
-    # }
-]
+# friends: [
+#     {
+#         title: "原博客",
+#         href: "https://shenbao.github.io/blog"
+#     },
+#     {
+#         title: "React技术栈",
+#         href: "https://shenbao.github.io/ishehui"
+#     }
+# ]
 
 
 # Extends
-extends: [
-    # {
-    #     title: "原博客",
-    #     href: "https://shenbao.github.io/blog"
-    # },
-    # {
-    #     title: "React技术栈",
-    #     href: "https://shenbao.github.io/ishehui"
-    # }
-]
+# extends: [
+#     {
+#         title: "原博客",
+#         href: "https://shenbao.github.io/blog"
+#     },
+#     {
+#         title: "React技术栈",
+#         href: "https://shenbao.github.io/ishehui"
+#     }
+# ]
