@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript 基本语法"
 subtitle:   "JavaScript入门语法"
-date:       2016-02-12 22:00:00
+date:       2015-11-12 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
