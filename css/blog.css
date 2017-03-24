@@ -1222,3 +1222,7 @@ legend,.raqu,.color-0085a1{
 .cloor-000{
   color: #000 !important;
 }
+
+article {
+     overflow-x: visible; 
+}
