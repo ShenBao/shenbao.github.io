@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript 数据类型"
 subtitle:   "JavaScript必会"
-date:       201-02-14 22:00:00
+date:       2015-11-14 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
