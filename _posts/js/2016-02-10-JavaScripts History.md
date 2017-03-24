@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "JavaScript语言的历史"
+title:      "JavaScript 语言的历史"
 subtitle:   "JavaScript、ECMAScript的发展史与周边大事记"
 date:       2016-02-10 22:00:00
 author:     "ShenBao"
