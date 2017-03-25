@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      "JavaScript 数组"
-subtitle:   ""
+subtitle:   "JavaScripts array"
 date:       2015-11-29 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
 tags:
-    - JavaScript
     - Learn JS
     - 前端
 ---

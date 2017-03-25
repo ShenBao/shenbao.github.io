@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      "JavaScript 对象"
-subtitle:   ""
+subtitle:   "JavaScripts object"
 date:       2015-11-24 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
 tags:
-    - JavaScript
     - Learn JS
     - 前端
 ---

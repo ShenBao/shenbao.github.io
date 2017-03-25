@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      "JavaScript 字符串"
-subtitle:   ""
+subtitle:   "JavaScripts string"
 date:       2015-11-20 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
 tags:
-    - JavaScript
     - Learn JS
     - 前端
 ---

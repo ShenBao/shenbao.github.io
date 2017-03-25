@@ -2,7 +2,7 @@
 layout:     post
 title:      "CSS 编码规范"
 subtitle:   "此为前端开发团队遵循和约定的 CSS 编码规范，意在提高代码的规范性和可维护性。"
-date:       2016-11-12 22:00:00
+date:       2016-05-12 22:00:00
 author:     "ShenBao"
 header-img: "img/common/04.jpg"
 catalog: true

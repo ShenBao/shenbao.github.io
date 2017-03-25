@@ -2,7 +2,7 @@
 layout:     post
 title:      "Javascript 本地存储"
 subtitle:   "cookie、localStorage、sessionStorage、globalStorage"
-date:       2017-02-21 22:00:00
+date:       2017-02-19 22:00:00
 author:     "ShenBao"
 header-img: "img/common/1008.jpg"
 catalog: true

@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript 编码规范"
 subtitle:   "此为前端开发团队遵循和约定的 JavaScript  编码规范，意在提高代码的规范性和可维护性。"
-date:       2016-11-14 20:00:00
+date:       2016-06-14 20:00:00
 author:     "ShenBao"
 header-img: "img/common/02.jpg"
 catalog: true

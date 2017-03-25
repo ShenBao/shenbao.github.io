@@ -7,7 +7,6 @@ author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
 tags:
-    - JavaScript
     - Learn JS
     - 前端
 ---
