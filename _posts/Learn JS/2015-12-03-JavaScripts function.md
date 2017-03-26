@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript 函数"
 subtitle:   "JavaScripts function"
-date:       2015-12-6 22:00:00
+date:       2015-12-3 22:00:00
 author:     "ShenBao"
 header-img: "img/assets/js-bg.jpg"
 catalog: true
