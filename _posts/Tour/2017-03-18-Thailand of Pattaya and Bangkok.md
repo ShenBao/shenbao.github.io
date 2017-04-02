@@ -7,6 +7,7 @@ author:     "ShenBao"
 catalog: true
 tags:
     - Tour
+    - team
 ---
 
 # Foreword
