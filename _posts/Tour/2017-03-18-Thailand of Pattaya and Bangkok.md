@@ -6,8 +6,8 @@ date:       2017-03-18  22:00:00
 author:     "ShenBao"
 catalog: true
 tags:
-    - Tour
     - team
+    - Tour
 ---
 
 # Foreword
