@@ -2,7 +2,7 @@
 layout:     post
 title:      "Gulp 入门指南"
 subtitle:   "gulp Introduction to entry"
-date:       2016-05-10  15:00:00
+date:       2016-05-10  21:00:00
 author:     "ShenBao"
 catalog: true
 tags:
@@ -372,7 +372,6 @@ callback 会被传入一个名为 `event` 的对象。这个对象描述了所�
 - [gulp-if](https://github.com/robrich/gulp-if)
 - [Orchestrator](https://github.com/robrich/orchestrator)
 - [glob2base](https://github.com/wearefractal/glob2base)
-
 
 
 # 快速使用
