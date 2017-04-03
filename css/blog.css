@@ -1226,3 +1226,28 @@ legend,.raqu,.color-0085a1{
 article {
      overflow-x: visible !important; 
 }
+
+.side-catalog .catalog-body .h1_nav {
+  font-size: 22px;
+  margin-left: 0;
+}
+.side-catalog .catalog-body .h2_nav {
+  font-size: 20px;
+  margin-left: 2px;
+}
+.side-catalog .catalog-body .h3_nav {
+  font-size: 18px;
+  margin-left: 4px;
+}
+.side-catalog .catalog-body .h4_nav {
+  font-size: 16px;
+  margin-left: 6px;
+}
+.side-catalog .catalog-body .h5_nav {
+  font-size: 14px;
+  margin-left: 8px;
+}
+.side-catalog .catalog-body .h1_nav {
+  font-size: 12px;
+  margin-left: 10px;
+}
