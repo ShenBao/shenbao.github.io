@@ -12,6 +12,7 @@ react
 
 https://github.com/leanklass/leanreact
 
+https://github.com/carlleton/reactjs101/tree/zh-CN
 
 
 
