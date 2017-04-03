@@ -129,26 +129,26 @@ article {
 }
 
 .side-catalog .catalog-body .h1_nav {
-  font-size: 22px;
+  font-size: 16px;
   margin-left: 0;
 }
 .side-catalog .catalog-body .h2_nav {
-  font-size: 20px;
+  font-size: 14px;
   margin-left: 4px;
 }
 .side-catalog .catalog-body .h3_nav {
-  font-size: 18px;
+  font-size: 12px;
   margin-left: 8px;
 }
 .side-catalog .catalog-body .h4_nav {
-  font-size: 16px;
-  margin-left: 12px;
+  font-size: 10px;
+  margin-left: 13px;
 }
 .side-catalog .catalog-body .h5_nav {
-  font-size: 14px;
-  margin-left: 16px;
+  font-size: 8px;
+  margin-left: 18px;
 }
-.side-catalog .catalog-body .h1_nav {
-  font-size: 12px;
-  margin-left: 20px;
+.side-catalog .catalog-body .h6_nav {
+  font-size: 6px;
+  margin-left: 23px;
 }
