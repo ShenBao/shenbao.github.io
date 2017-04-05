@@ -76,7 +76,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.#添加侧边栏
-sidebar-about-description: "不管路走了多远，<br>错了就要重新返回." # 简单的描述一下你自己
+sidebar-about-description: "不管路走了多远，<br>错了就要重新返回.<br>少抱怨，多思考，<br>未来更美好！！" # 简单的描述一下你自己
 sidebar-avatar: /img/config/shenbao.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`你的大头贴，请使用绝对地址
 
 
