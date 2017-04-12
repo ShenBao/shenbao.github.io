@@ -9,29 +9,30 @@ tags:
     - mysql
 ---
 
+# mysql安装配置
 
 
-# 下载
+## 下载
 
 ```
 http://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.11-winx64.zip
 ```
 
-# 解压缩zip包；
+## 解压缩zip包；
 
 ```
 D:\Program Files\mysql-5.7.11-winx64
 ``` 
 
-# 配置环境变量，
+## 配置环境变量，
 
-## 添加path路径，
+### 添加path路径，
 
 ```
 D:\Program Files\mysql-5.7.11-winx64\bin
 ```
 
-## 修改mysql-default.ini配置文件，
+### 修改mysql-default.ini配置文件，
 
 原
 ```
@@ -50,7 +51,7 @@ D:\Program Files\mysql-5.7.11-winx64\bin
 # server_id = .....
 ```
 
-# 以管理员身份进入命令提示符 cmd
+## 以管理员身份进入命令提示符 cmd
 
 <b>重要：管理员权限进入<b>
 
@@ -66,14 +67,14 @@ D:\Program Files\mysql-5.7.11-winx64\bin>mysqld.exe --initialize
 
 创建了data目录
 
-# 执行 mysqld -install命令
+## 执行 mysqld -install命令
 
 ```
 D:\Program Files\mysql-5.7.11-winx64\bin>mysqld -install
 Service successfully installed.  //成功安装服务
 ```
 
-# 执行mysqld.exe -nt --skip-grant-tables
+## 执行mysqld.exe -nt --skip-grant-tables
 
 注意：窗口无反应
 
@@ -83,7 +84,7 @@ D:\Program Files\mysql-5.7.11-winx64\bin>mysqld.exe -nt --skip-grant-tables
 
 ```
 
-# 重新打开dos窗口，执行mysql -u root
+## 重新打开dos窗口，执行mysql -u root
 
 进入mysql命令行，执行命令use mysql; update user set authtication_string=Password('123456') where user="root"; set password=Password('123456');
 
@@ -115,7 +116,7 @@ mysql> update user set authtication_string=Password('123456') where user="root"
 安装完成。
 
 
-# 安装sqlyog10
+## 安装sqlyog10
 
 sqlyog10 图形化窗口操作，方便！！！
 
@@ -123,3 +124,4 @@ sqlyog10 图形化窗口操作，方便！！！
 
 
 
+<!--http://www.cnblogs.com/endv/p/5205435.html-->
