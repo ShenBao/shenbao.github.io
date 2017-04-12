@@ -18,21 +18,21 @@ tags:
 http://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.11-winx64.zip
 ```
 
-## 解压缩zip包；
+## 解压缩zip包
 
 ```
 D:\Program Files\mysql-5.7.11-winx64
 ``` 
 
-## 配置环境变量，
+## 配置环境变量
 
-### 添加path路径，
+### 添加path路径
 
 ```
 D:\Program Files\mysql-5.7.11-winx64\bin
 ```
 
-### 修改mysql-default.ini配置文件，
+### 修改mysql-default.ini配置文件
 
 原
 ```
