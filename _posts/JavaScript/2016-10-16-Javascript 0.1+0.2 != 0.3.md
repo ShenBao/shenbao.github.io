@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript 中 0.1+0.2 不等于 0.3"
 subtitle:   "JS中IEEE754关于浮点数二进制的探讨"
-date:       2017-10-16 22:00:00
+date:       2016-10-16 22:00:00
 author:     "ShenBao"
 header-img: "img/common/1003.jpg"
 catalog: true
