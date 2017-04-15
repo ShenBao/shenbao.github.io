@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      " js 实时监听input中值变化"
-subtitle:   ""
+title:      "js 实时监听input中值变化"
+subtitle:   "oninput,onpropertychange,onchange的用法"
 date:       2016-07-10 20:00:00
 author:     "ShenBao"
 header-img: "img/common/02.jpg"
@@ -14,13 +14,15 @@ tags:
 
 ## js 实时监听input中值变化
 
+### HTML
+
 ```
 <!DOCTYPE html>  
 <html>  
     <head>  
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
         <title>RunJS</title>  
-    <script id="jquery_183" type="text/javascript" class="library" src="/js/sandbox/jquery/jquery-1.8.3.min.js"></script>  
+    <script src="/js/jquery-1.8.3.min.js"></script>  
     </head>  
     <body>  
         <h1 >  
@@ -32,6 +34,7 @@ tags:
 </html>  
 ```
 
+### JS
 ```
 $(function(){  
   
@@ -42,6 +45,7 @@ $(function(){
 })  
 ```
 
+## 总结
 
 类似于，实现微博的‘还能输入xxx个字符’
 
