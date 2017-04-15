@@ -14,7 +14,7 @@ tags:
 
 ## js 实时监听input中值变化
 
-### HTML
+### HTML code
 
 ```
 <!DOCTYPE html>  
@@ -34,7 +34,7 @@ tags:
 </html>  
 ```
 
-### JS
+### JS code
 ```
 $(function(){  
   
