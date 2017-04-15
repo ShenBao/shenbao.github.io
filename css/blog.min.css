@@ -152,3 +152,12 @@ article {
   font-size: 6px;
   margin-left: 23px;
 }
+
+.progress-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    z-index: 99;
+    background-color: yellow;
+}

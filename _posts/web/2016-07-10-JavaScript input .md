@@ -12,7 +12,7 @@ tags:
     - 前端
 ---
 
-
+## js 实时监听input中值变化
 
 ```
 <!DOCTYPE html>  
@@ -55,23 +55,6 @@ onchange触发事件必须满足两个条件：
 onpropertychange的话，只要当前对象属性发生改变，都会触发事件，但是它是IE专属的；
 
 oninput是onpropertychange的非IE浏览器版本，支持firefox和opera等浏览器，但有一点不同，它绑定于对象时，并非该对象所有属性改变都能触发事件，它只在对象value值发生改变时奏效。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
