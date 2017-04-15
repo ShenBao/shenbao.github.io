@@ -61,13 +61,16 @@ jQuery(document).ready(function($) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
                         $('.navbar-custom').addClass('is-visible');
+                        console.log('is-visible');
                     } else {
                         $('.navbar-custom').removeClass('is-visible is-fixed');
+                        console.log('is-visible is-fixed');                        
                     }
                 } else {
                     //if scrolling down...
                     $('.navbar-custom').removeClass('is-visible');
                     if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) $('.navbar-custom').addClass('is-fixed');
+                    console.log('is-fixed');                                            
                 }
                 this.previousTop = currentTop;
 
