@@ -30,3 +30,4 @@ Created by ShenBao on 2016.03.21
 - 隐藏多说“by 多说”
 - 添加bg-color
 - 添加底部及右侧EXTENDS
+- 添加顶部阅读进度条
