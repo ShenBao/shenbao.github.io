@@ -1,5 +1,19 @@
 
 
+#include 
+1.可包含本地文件（不包含VTL） 
+2.文件内容不经过template engine处理 
+3.出于安全性的考虑，此文件只能位于TEMPLATE_ROOT目录下 
+
+#parse 
+1.可以引入包含VTL的模板 
+2.任何模板文件只能位于TEMPLATE_ROOT目录下 
+
+一般默认情况下，TEMPLATE_ROOT就是项目的根目录，举个例子： 
+
+#parse("./user/b.html") 此处b.html可以包含velocity代码。 
+#include("./user/a.html") 此处a.html不可以包含velocity代码。
+
 
 ## velocity时间格式化
 
