@@ -15,12 +15,21 @@ tags:
 ### HTML Code
 
 ```
-<input id="btnAdd" type="button" onclick="openWin();" value="点击出子窗口" />
+    <input 
+        id="btnAdd"
+        type="button"
+        onclick="openWin();"
+        value="点击出子窗口"
+    />
 ```
 ### JS Code
 ```
 function openWin() {
-    window.open('win.html', '_blank','width=300,height=400,top=200,left=400');
+    window.open(
+        'win.html',
+        '_blank',
+        'width=300,height=400,top=200,left=400'
+    );
 }
 //定义callback方法，用于回调
 function callback(data) {
@@ -34,7 +43,12 @@ function callback(data) {
 ### HTML Code
 
 ```
-<input id="onSub" type="button" onclick="formSubmit();" value="点击传送数据到父页面，同时关闭当前小窗口">
+    <input 
+        id="onSub" 
+        type="button"
+        onclick="formSubmit();"
+        value="点击传送数据到父页面，同时关闭当前小窗口" 
+    />
 ```
 ### JS Code
 ```
