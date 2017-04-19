@@ -51,3 +51,30 @@ function formSubmit(){
 }
 ```
 
+判断父窗口的状态
+
+```
+if(window.opener && !window.opener.closed)
+```
+
+
+
+## 刷新父窗口
+
+1. window.opener.location.reload();这个方法在强迫父窗口的时候，在有些IE浏览器（比如安全设置高）的情况下，会弹出一个确认对话框，提示是不是要重新再刷新一次页面，这可是比较郁闷的事情哦
+2. window.opener.location.href=window.opener.location.href;用这个就不会有问题
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
