@@ -81,14 +81,3 @@ if(window.opener && !window.opener.closed)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
