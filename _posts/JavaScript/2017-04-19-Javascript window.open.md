@@ -78,4 +78,3 @@ if(window.opener && !window.opener.closed)
 2. window.opener.location.href=window.opener.location.href;用这个就不会有问题
 
 
-
