@@ -14,6 +14,8 @@
 #parse("./user/b.html") 此处b.html可以包含velocity代码。 
 #include("./user/a.html") 此处a.html不可以包含velocity代码。
 
+## 数组长度
+$array.size()
 
 ## velocity时间格式化
 
