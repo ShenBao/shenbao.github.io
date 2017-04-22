@@ -147,7 +147,7 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('MyNewPassword');
 在DOS命令提示符下，执行命令：
 
 ```
-C:\> C:\mysql\bin\mysqld --init-file=C:\mysql-init.txt
+C:\> C:\mysql\bin\mysql --init-file=C:\mysql-init.txt
 ```
 
 在服务器启动时，执行由“--init-file”选项（作用：在启动时从指定的文件中读取SQL命令）命名的文件的内容，更改根用户密码。当服务器成功启动后，应删除C:\mysql-init.txt。
