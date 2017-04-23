@@ -75,7 +75,6 @@ gem sources -a https://ruby.taobao.org/
 //更新缓存
 gem sources -u
 ```
-
 ## 3.Install the Jekyll
 到此终于可以安装 Jekyll 了，只需要一条命令即可。
 ```
@@ -185,6 +184,7 @@ git push origin master
 ## 8. 参考资料
 [Jekyll + Github 搭建属于你的静态博客](https://bigballon.github.io/posts/jekyll-github.html)<br>
 [Jekyll和Github搭建个人静态博客](http://pwnny.cn/original/2016/06/26/MakeBlog.html)
+
 
 
 ## 报错解决
