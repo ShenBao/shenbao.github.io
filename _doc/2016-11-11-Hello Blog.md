@@ -7,20 +7,16 @@ author:     "ShenBao"
 catalog: true
 tags:
     - 生活
+    - Blog
 ---
 
 
 ## 正文
 
-ShenBao 的 Blog 就这么开通了。
+以后这里就是 ShenBao 的 Blog。
 
-现在2016年末了，从现在起 ShenBao 总算有个地方可以好好写点东西了。
+从现在起 ShenBao 将会在这里记录点滴。
 
-
-作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。
-
-- 一是觉得大部分 Blog 服务都太丑；
-- 二是觉得不能随便定制不好玩。
 
 之前因为太懒没有折腾，所以之前就是简单的做个记录罢了！（ps：[原博客](https://shenbao.github.io/blog)）。
 
