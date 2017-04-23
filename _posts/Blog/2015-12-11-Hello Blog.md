@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hello Blog"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2016-11-11 22:00:00
+date:       2015-12-11 22:00:00
 author:     "ShenBao"
 catalog: true
 tags:
@@ -20,8 +20,6 @@ tags:
 
 之前因为太懒没有折腾，所以之前就是简单的做个记录罢了！（ps：[原博客](https://shenbao.github.io/blog)）。
 
-
-当然在配置的过程中也没遇到什么坑，之后会出一篇搭建过程的博客，敬请期待！！！
 
 
 ## 后记
