@@ -202,4 +202,3 @@ git push origin master
 
 解决方案：gem install bundler
 
-
