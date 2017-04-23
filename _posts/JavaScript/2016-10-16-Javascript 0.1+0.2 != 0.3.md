@@ -245,5 +245,3 @@ x     2
 [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js "https://github.com/dtrebbien/BigDecimal.js") 
 
 [big.js](https://github.com/MikeMcl/big.js "https://github.com/MikeMcl/big.js")
-
-
