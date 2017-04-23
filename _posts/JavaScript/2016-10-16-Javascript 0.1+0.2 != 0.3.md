@@ -32,7 +32,7 @@ tags:
 ![03.png](/img/JavaScript/20161016/03.png "03.png")
 ![04.png](/img/JavaScript/20161016/04.png "04.png")
 ![05.png](/img/JavaScript/20161016/05.png "05.png")
-![06.png](/imgJavaScript/20161016/06.png "06.png")
+![06.png](/img/JavaScript/20161016/06.png "06.png")
 
 好了，下面我们重点关注一下情况1，并举例来看，不然实在头大啊。以单精度举例。
 
