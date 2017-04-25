@@ -15,7 +15,7 @@ tags:
 
 在项目中80%的时间用到的ES6语法只占其20%，所以我们暂时先集中精力把这20%学好，那就差不多够用了，剩下的可以看书或是查文档，现学现用。
 
-![es6](/img/201702/27/es6.jpg "es6")
+![es6](/img/ES6/20170227/es6.jpg "es6")
 
 **重要提示：**示例代码[es6-demo](https://github.com/shenbao/shenbao-es6-demo)
 

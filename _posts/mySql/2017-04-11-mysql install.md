@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "mysql安装配置"
-subtitle:   "总结一下"
+subtitle:   "安装及错误处理"
 date:       2017-04-11 20:00:00
 author:     "ShenBao"
 catalog: true
@@ -119,6 +119,47 @@ mysql> update user set authtication_string=Password('123456') where user="root"
 ## 安装sqlyog10
 
 sqlyog10 图形化窗口操作，方便！！！
+
+
+## 连接MySQL出错,错误代码1045的解决方法
+
+
+1、以系统管理员身份登录到系统；
+
+2、如果MySQL服务器正在运行，停止它。
+
+如果是作为Windows服务运行的服务器，进入服务管理器：开始菜单->控制面板->管理工具->服务
+
+如果服务器不是作为服务而运行的，可能需要使用任务管理器来强制停止它。
+
+3、创建1个文本文件，并将下述命令置于单一行中：
+
+```
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('MyNewPassword');
+```
+
+用任意名称保存该文件。该文件为C:\mysql-init.txt。
+
+4、进入DOS命令提示：开始菜单->运行-> cmd
+
+假定你已将MySQL安装到C:\mysql。如果你将MySQL安装到了另一位置，请对下述命令进行相应的调整。
+
+在DOS命令提示符下，执行命令：
+
+```
+C:\> C:\mysql\bin\mysql --init-file=C:\mysql-init.txt
+```
+
+在服务器启动时，执行由“--init-file”选项（作用：在启动时从指定的文件中读取SQL命令）命名的文件的内容，更改根用户密码。当服务器成功启动后，应删除C:\mysql-init.txt。
+
+5、停止MySQL服务器，然后在正常模式下重启它。如果以服务方式运行服务器，应从Windows服务窗口启动它。如果以手动方式启动了服务器，能够像正常情形下一样使用命令。
+
+
+
+
+
+
+
 
 
 

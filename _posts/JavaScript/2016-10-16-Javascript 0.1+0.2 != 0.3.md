@@ -13,13 +13,11 @@ tags:
 
 前两天看了小胡子叔叔写了一篇js中浮点数运算的一个比较特殊的 0.1+0.2 的问题， [揭秘 0.1 + 0.2 != 0.3](http://www.barretlee.com/blog/2016/09/28/ieee754-operation-in-js/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) ,于是查各种资料，将包括IEEE754关于浮点数二进制的只是又整理一下，做此记录。
 
-<!--https://shenbao.github.io/2017/02/16/Javascript-0.1+0.2-!=-0.3/-->
-
 知乎上关于这个问题的探讨： [去知乎](https://www.zhihu.com/question/24415787)
 
-![01.png](/img/201702/16/01.png "01.png")
+![01.png](/img/JavaScript/20161016/01.png "01.png")
 上图是IEEE对浮点数表示的说明，这里分单精度与双精度之分，如下图：
-![02.png](/img/201702/16/02.png "02.png")
+![02.png](/img/JavaScript/20161016/02.png "02.png")
 
 对于单精度浮点数，采用32位存储，最高的1位是符号位s，接着的8位是指数E，剩下的23位为有效数字M。
 
@@ -30,10 +28,10 @@ tags:
 根据 exp 的值，被编码的值可以分成三种不同的情况(最后一种情况有两 个变种)。下图说明了对单精度格式的情况。
 
 
-![03.png](/img/201702/16/03.png "03.png")
-![04.png](/img/201702/16/04.png "04.png")
-![05.png](/img/201702/16/05.png "05.png")
-![06.png](/img/201702/16/06.png "06.png")
+![03.png](/img/JavaScript/20161016/03.png "03.png")
+![04.png](/img/JavaScript/20161016/04.png "04.png")
+![05.png](/img/JavaScript/20161016/05.png "05.png")
+![06.png](/img/JavaScript/20161016/06.png "06.png")
 
 好了，下面我们重点关注一下情况1，并举例来看，不然实在头大啊。以单精度举例。
 
@@ -247,5 +245,3 @@ x     2
 [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js "https://github.com/dtrebbien/BigDecimal.js") 
 
 [big.js](https://github.com/MikeMcl/big.js "https://github.com/MikeMcl/big.js")
-
-
