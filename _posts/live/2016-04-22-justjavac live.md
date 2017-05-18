@@ -298,5 +298,5 @@ tags:
 
 ![书签管理](/img/live/20170422/ganwu.jpg)
 
+更多精彩希望直接付费去听知乎 live 回顾咯：>[https://www.zhihu.com/lives/824618968198291456](https://www.zhihu.com/lives/824618968198291456)
 
-更多精彩希望直接付费去听知乎 live 回顾咯：https://www.zhihu.com/lives/824618968198291456
