@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "justjavac 《前端工程师的入门与进阶》"
+title:      "知乎live — justjavac《前端工程师的入门与进阶》"
 subtitle:   "知乎付费，大牛讲解"
 date:       2017-04-22 20:00:00
 author:     "ShenBao"
@@ -9,8 +9,8 @@ tags:
     - Live
 ---
 
-### 知乎听讲总结
-##### 知乎live----justjavac 《前端工程师的入门与进阶》
+### 知乎live
+##### justjavac《前端工程师的入门与进阶》
 
 >[live简介 go](https://www.zhihu.com/lives/824618968198291456)
 
