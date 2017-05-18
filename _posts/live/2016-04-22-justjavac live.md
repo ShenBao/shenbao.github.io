@@ -11,7 +11,7 @@ tags:
 
 # 知乎live justjavac《前端工程师的入门与进阶》
 
->[live简介 go](https://www.zhihu.com/lives/824618968198291456)
+>[live简介 https://www.zhihu.com/lives/824618968198291456](https://www.zhihu.com/lives/824618968198291456)
 
 本次 Live 主要包括以下内容
 
