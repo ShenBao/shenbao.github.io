@@ -21,8 +21,8 @@ about_path: about
 # SNS settings
 RSS: false
 weibo_username:     
-zhihu_username:     
-github_username:    ShenBao
+zhihu_username:  shenbao
+github_username: ShenBao
 #twitter_username:  
 facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
