@@ -6,8 +6,6 @@ date:       2017-04-22 20:00:00
 author:     "ShenBao"
 catalog: true
 tags:
-    - JavaScript
-    - Web
     - Live
 ---
 
