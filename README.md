@@ -3,7 +3,7 @@
 
 ### [博客] (https://shenbao.github.io)
 
-### [技术文档] (https://shenbao.github.io/blog)
+### [API文档] (https://shenbao.github.io/blog)
 
 ### [开发总结] (https://shenbao.github.io/ishehui)
 
