@@ -114,8 +114,8 @@ extends: [
         title: "技术文档",
         href: "https://shenbao.github.io/blog"
     },
-    # {
-    #     title: "React技术栈",
-    #     href: "https://shenbao.github.io/ishehui"
-    # }
+    {
+        title: "ISHFE",
+        href: "https://shenbao.github.io/ishehui"
+    }
 ]
