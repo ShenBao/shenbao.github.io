@@ -58,6 +58,9 @@ input: GFM                            # use Github Flavored Markdown !important
 # Disqus settings
 disqus_username: ShenBao
 
+# Hypercomments settings
+hypercomments_userid: 91931
+
 # Duoshuo settings
 duoshuo_username: shenbao
 # Share component is depend on Comment so we can NOT use share only.

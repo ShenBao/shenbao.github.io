@@ -96,9 +96,11 @@ layout: default
                     {% endif %}
                 </ul>
 
+                {% if site.hypercomments_userid %}
                 <!--hypercomments 评论-->
                 <div id="hypercomments_widget"></div>
                 <!--hypercomments end-->
+                {% endif %}
 
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
@@ -176,7 +178,6 @@ layout: default
     </div>
 </article>
 
-
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -194,22 +195,25 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% if site.hypercomments_userid %}
 <!--hypercomments 评论-->
 <script type="text/javascript">
+var hypercomments_userid = "{{site.hypercomments_userid}}";
 _hcwp = window._hcwp || [];
-_hcwp.push({widget:"Stream", widget_id: 91931});
+_hcwp.push({widget:"Stream", widget_id: hypercomments_userid});
 (function() {
 if("HC_LOAD_INIT" in window)return;
 HC_LOAD_INIT = true;
 var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
 var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/91931/"+lang+"/widget.js";
+hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/"+hypercomments_userid+"/"+lang+"/widget.js";
 var s = document.getElementsByTagName("script")[0];
 s.parentNode.insertBefore(hcc, s.nextSibling);
 })();
 </script>
 <a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
 <!--End hypercomments 评论-->
+{% endif %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
