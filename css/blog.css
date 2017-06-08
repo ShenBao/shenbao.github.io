@@ -1260,6 +1260,6 @@ article {
     z-index: 99;
     background-color: red;
 }
-.container{
+article .container{
   background: #FFF;
 }
