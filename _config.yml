@@ -56,7 +56,7 @@ input: GFM                            # use Github Flavored Markdown !important
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username: ShenBao
 
 # Duoshuo settings
 duoshuo_username: shenbao
