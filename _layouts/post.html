@@ -96,6 +96,9 @@ layout: default
                     {% endif %}
                 </ul>
 
+                <br>
+                <hr>
+
                 {% if site.hypercomments_userid %}
                 <!--hypercomments 评论-->
                 <div id="hypercomments_widget"></div>
@@ -103,6 +106,7 @@ layout: default
                 {% endif %}
 
                 {% if site.disqus_username %}
+                <hr>
                 <!-- disqus 评论框 start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
@@ -211,7 +215,7 @@ var s = document.getElementsByTagName("script")[0];
 s.parentNode.insertBefore(hcc, s.nextSibling);
 })();
 </script>
-<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
+<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget" style="display:none;">comments powered by HyperComments</a>
 <!--End hypercomments 评论-->
 {% endif %}
 
