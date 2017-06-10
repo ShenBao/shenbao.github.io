@@ -23,8 +23,8 @@ RSS: false
 weibo_username:  ShenBaoPro
 zhihu_username:  shenbao
 github_username: ShenBao
-#twitter_username:  
-facebook_username:  
+# twitter_username:  
+# facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -97,7 +97,6 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
-
 # Friends
 # friends: [
 #     {
@@ -109,7 +108,6 @@ service-worker: true
 #         href: "https://shenbao.github.io/ishehui"
 #     }
 # ]
-
 
 # Extends
 extends: [
