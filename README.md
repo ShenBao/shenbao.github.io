@@ -23,7 +23,7 @@ Created by ShenBao on 2016.03.21
 - 添加返回顶部
 - ~~多说分享链接修复~~ （2017.06.01多说关闭，之后删除了累赘的代码）
 - ~~多说分享图片设置~~
-- 添加点击时彩色小心（ps：[相应的Chrome插件点击这里](./ShenBao/ChromePlugIn-ClickHeart)）
+- 添加点击时彩色小心（ps：[相应的Chrome插件点击这里](https://github.com/ShenBao/ChromePlugIn-ClickHeart)）
 - 添加PC右上角 fork me on github
 - 兼容移动版本GITHUB导航与PC fork me on github对应
 - 添加home ：当前页/总页数
