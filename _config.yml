@@ -62,9 +62,9 @@ disqus_username: ShenBao
 hypercomments_userid: 91931
 
 # Duoshuo settings
-duoshuo_username: shenbao
+# duoshuo_username: shenbao
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
