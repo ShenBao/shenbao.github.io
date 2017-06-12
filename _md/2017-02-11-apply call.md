@@ -37,6 +37,7 @@ tags:
 <input type="text" id="myText"   value="input text">
 
 <script>
+
    function Obj(){
        this.value="对象！";
     }
@@ -49,7 +50,8 @@ tags:
    Fun1.call(window);  //global 变量
    Fun1.call(document.getElementById('myText'));  //input text
    Fun1.call(new Obj());   //对象！
-   window.Fun1(); //global 变量
+   window.Fun1(); //global 变量\
+
 </script>
 ```
 
@@ -57,6 +59,7 @@ call函数和apply方法的第一个参数都是要传入给当前对象的对�
 
 ```
 <script>
+
   var func=new function(){this.a="func"}
   var myfunc=function(x){
        var a="myfunc";
@@ -64,6 +67,7 @@ call函数和apply方法的第一个参数都是要传入给当前对象的对�
        alert(x);
    }
    myfunc.call(func,"var");
+
 </script>
 ```
 可见分别弹出了func和var。先调用func函数，用this.a=”func”替换myfunc中的this.a ; 然后将”var”传递给方myfunc的参数x可见分别弹出了func和var。
@@ -84,6 +88,7 @@ function base() {
         window.alert(this.member);
     }
 }
+
 function extend() {
     base.call(this);
     window.alert(member);
@@ -109,6 +114,7 @@ var Class = {
 示例：
 ```
 var vehicle=Class.create();
+
 vehicle.prototype={
     initialize:function(type){
         this.type=type;
@@ -117,8 +123,10 @@ vehicle.prototype={
         alert("this vehicle is "+ this.type);
     }
 }
+
 var moto=new vehicle("Moto");
 moto.showSelf();
+
 ```
 
 运行结果为：this vehicle is Moto　
@@ -129,10 +137,11 @@ moto.showSelf();
 function add(a, b){
   alert(a + b);
 }
-function sub(a, b)
-{
+
+function sub(a, b){
   alert(a - b);
 }
+
 add.call(sub, 3, 1);
 ```
 
@@ -149,13 +158,16 @@ function Animal() {
     alert(this.name);
   }
 }
+
 function Cat() {
   this.name = 'Cat';
 }
+
 var animal = new Animal();
 var cat = new Cat();
 //通过call或apply方法，将原本属于Animal对象的showName()方法交给对象cat来使用了。  
 //输入结果为"Cat"  
+
 animal.showName.call(cat, ',');
 //animal.showName.apply(cat,[]);
 ```
@@ -174,9 +186,11 @@ function Animal(name) {
     alert(this.name);
   }
 }
+
 function Cat(name) {
   Animal.call(this, name);
 }
+
 var cat = new Cat('Black Cat');
 cat.showName();
 ```
@@ -184,6 +198,35 @@ cat.showName();
 
 Animal.call(this) 的意思就是使用 Animal对象代替this对象，那么 Cat中不就有Animal的所有属性和方法了吗，Cat对象就能够直接调用Animal的方法以及属性了。
 
+### 实现多重继承　
 
+```
+var s1 = function(name){
+  this.name = name;
+}
 
+var s2 = function(sex){
+  this.sex = sex;
+}
+
+var s3 = function(age){
+  this.age = age;
+}
+
+var Student = function(name,sex,age,score){
+  s1.call(this,name);
+  s2.call(this,sex);
+  s3.call(this,age);
+  this.score = score;
+}
+
+Student.prototype.construction = Student;
+var s = new Student('jack','male','12','100');
+console.log(s.name); //输出:jack
+console.log(s.sex);  //输出:male 
+console.log(s.age);  //输出:12
+console.log(s.score);//输出:100
+```
+
+这样我们就可以根据各个不同的功能模块分不同的程序员独立开发，最后合并起来，实现了多重继承。
 
