@@ -121,7 +121,68 @@ var moto=new vehicle("Moto");
 moto.showSelf();
 ```
 
+运行结果为：this vehicle is Moto　
 
+### 3
+
+```
+function add(a, b){
+  alert(a + b);
+}
+function sub(a, b)
+{
+  alert(a - b);
+}
+add.call(sub, 3, 1);
+```
+
+输出结果为：4
+
+这个例子中的意思就是用 add 来替换 sub，add.call(sub,3,1) == add(3,1) ，所以运行结果为：alert(4);  注意：js 中的函数其实是对象，函数名是对 Function 对象的引用。
+
+### 4
+
+```
+function Animal() {
+  this.name = 'Animal';
+  this.showName = function () {
+    alert(this.name);
+  }
+}
+function Cat() {
+  this.name = 'Cat';
+}
+var animal = new Animal();
+var cat = new Cat();
+//通过call或apply方法，将原本属于Animal对象的showName()方法交给对象cat来使用了。  
+//输入结果为"Cat"  
+animal.showName.call(cat, ',');
+//animal.showName.apply(cat,[]);
+```
+
+输出结果为：cat
+
+call 的意思是把 animal 的方法放到cat上执行，原来cat是没有showName() 方法，现在是把animal 的showName()方法放到 cat上来执行，所以this.name 应该是 Cat。　
+
+
+### 实现继承　　　
+
+```
+function Animal(name) {
+  this.name = name;
+  this.showName = function () {
+    alert(this.name);
+  }
+}
+function Cat(name) {
+  Animal.call(this, name);
+}
+var cat = new Cat('Black Cat');
+cat.showName();
+```
+输出结果为：Black Cat
+
+Animal.call(this) 的意思就是使用 Animal对象代替this对象，那么 Cat中不就有Animal的所有属性和方法了吗，Cat对象就能够直接调用Animal的方法以及属性了。
 
 
 
