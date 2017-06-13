@@ -30,7 +30,6 @@ tags:
     - 如果没有提供 argArray 和 thisObj 任何一个参数，那么 Global 对象将被用作 thisObj， 并且无法被传递任何参数。
 
 
-
 ## 常用实例
 
 ### call应用实例
