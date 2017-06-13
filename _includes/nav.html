@@ -1,9 +1,11 @@
+{% if site.github_username %}
 <!--forkgithub-->
 <div class="forkgithub">
-    <a target="_blank" href="https://github.com/ShenBao">
+    <a target="_blank" href="https://github.com/{{site.github_username}}">
     </a>
 </div>
 <!--end forkgithub-->
+{% endif %}
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
@@ -37,9 +39,11 @@
 					<li>
                         <a href="{{ site.BASE_PATH}}/{{ site.about_path }}">About Me</a>
                     </li>
+                    {% if site.github_username %}
                     <li class="gotogithub">
-                        <a href="https://github.com/shenbao">github</a>
+                        <a href="https://github.com/{{site.github_username}}">github</a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
