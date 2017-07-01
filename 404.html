@@ -25,4 +25,13 @@ permalink: /404.html
 
 <script>
 	document.body.classList.add('page-fullscreen');
+	(function(){
+		var l =location.href;
+		if(l.includes('shenbao-notes')){
+			location.href = '/shenbao-notes'
+		}
+		if(l.includes('idoc-template')){
+			location.href = '/idoc-template'
+		}
+	})();
 </script>
