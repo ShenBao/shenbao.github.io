@@ -10,13 +10,10 @@ tags:
 ---
 
 
-
 ## 我的提问
 
 ![q.png](/img/live/20170629/q.jpg)
 ![a.png](/img/live/20170629/a.jpg)
-
-
 
 ## 正式内容
 
