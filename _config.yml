@@ -116,6 +116,10 @@ extends: [
         href: "https://shenbao.github.io/shenbao-notes"
     },
     {
+        title: "diary",
+        href: "https://shenbao.github.io/shenbao-diary"
+    },
+    {
         title: "技术文档",
         href: "https://shenbao.github.io/blog"
     },
