@@ -111,6 +111,10 @@ service-worker: true
 
 # Extends
 extends: [
+     {
+        title: "Blog",
+        href: "https://shenbao.github.io"
+    },
     {
         title: "开发笔记",
         href: "https://shenbao.github.io/shenbao-notes"
@@ -120,7 +124,7 @@ extends: [
         href: "https://shenbao.github.io/shenbao-diary"
     },
     {
-        title: "技术文档",
+        title: "API doc",
         href: "https://shenbao.github.io/blog"
     },
     {
