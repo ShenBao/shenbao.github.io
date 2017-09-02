@@ -37,9 +37,9 @@ It looks like you are trying to access MongoDB over HTTP on the native driver po
 
 这个操作就是为了方便，每次开机MongoDB就自动启动了。
 
-在c:\mongodb\data下新建文件夹log（存放日志文件）并且新建文件mongodb.log
+在c:\mongodb\data下新建文件夹log（存放日志文件）并且新建文件`mongodb.log`
 
-在d:\mongodb新建文件mongo.config
+在d:\mongodb新建文件`mongo.config`
 
 
 用记事本打开mongo.config输入：
@@ -65,12 +65,6 @@ mongod --config C:\mongodb\mongo.config --install --serviceName "MongoDB"
 ## 可视化工具
 
 下载地址 https://robomongo.org/download
-
-
-
-
-
-
 
 
 
