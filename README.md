@@ -1,7 +1,7 @@
 
 # ShenBao Blog
 
-### [博客] (https://shenbao.github.io)
+### [我的博客] (https://shenbao.github.io)
 
 ### [开发笔记] (https://shenbao.github.io/shenbao-notes)
 
