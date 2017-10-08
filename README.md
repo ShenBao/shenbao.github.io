@@ -36,7 +36,7 @@ Created by ShenBao on 2016.03.21
 - 添加顶部阅读进度条
 - 添加背景的canvas-nest效果
 - 解决canvas-nest在移动端的问题
-- 注册disqus，添加disqus评论，需要科学上网
+- 注册disqus，添加disqus评论（需要科学上网）
 - 注册并添加了hypercomments评论，支持匿名评论,支持国内访问
 - 将hypercomments添加至config中
 
