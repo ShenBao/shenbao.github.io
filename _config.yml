@@ -15,6 +15,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 categories_path: categories
 tags_path: tags
 archive_path: archives
+search_path: search
 about_path: about
 
 
