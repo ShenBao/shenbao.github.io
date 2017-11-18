@@ -45,7 +45,6 @@ anchorjs: no # true                          # if you want to customize anchor. 
 gems: [jekyll-paginate]
 
 
-
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
@@ -53,7 +52,6 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
 input: GFM                            # use Github Flavored Markdown !important
-
 
 
 # Disqus settings
@@ -66,8 +64,6 @@ hypercomments_userid: 91931
 # duoshuo_username: shenbao
 # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
 
 
 # Analytics settings
@@ -90,7 +86,6 @@ sidebar-avatar: /img/config/my-head.jpg      # use absolute URL, seeing it's use
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
-
 
 
 # Progressive Web Apps
