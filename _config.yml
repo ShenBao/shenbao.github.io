@@ -113,7 +113,7 @@ extends: [
     },
     {
         title: "开发笔记",
-        href: "https://shenbao.github.io/shenbao-notes"
+        href: "https://shenbao.github.io/shenbao-learn-notes"
     },
     {
         title: "diary",

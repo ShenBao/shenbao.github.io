@@ -3,7 +3,7 @@
 
 ### [我的博客] (https://shenbao.github.io)
 
-### [开发笔记] (https://shenbao.github.io/shenbao-notes)
+### [开发笔记] (https://shenbao.github.io/shenbao-learn-notes)
 
 ### [API文档] (https://shenbao.github.io/blog)
 
