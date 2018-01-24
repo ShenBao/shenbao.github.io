@@ -42,8 +42,10 @@ anchorjs: no # true                          # if you want to customize anchor. 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -90,7 +92,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true
+service-worker: false
 
 
 # Friends
