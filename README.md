@@ -9,6 +9,8 @@
 
 ### [开发总结] (https://shenbao.github.io/ishehui)
 
+### [博客模板] (https://shenbao.github.io/xiaobao-blog/home)
+
 <br/>
 
 Created by ShenBao on 2016.03.21
