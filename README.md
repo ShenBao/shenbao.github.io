@@ -9,7 +9,7 @@
 
 ### [开发总结] (https://shenbao.github.io/ishehui)
 
-### [博客模板] (https://shenbao.github.io/xiaobao-blog/home)
+### [博客模板] (https://shenbao.github.io/xiaobao-blog-boilerplate/home)
 
 <br/>
 
