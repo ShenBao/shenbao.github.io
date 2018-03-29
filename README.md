@@ -9,12 +9,13 @@
 
 ### [开发总结] (https://shenbao.github.io/ishehui)
 
+### [博客模板] (https://shenbao.github.io/xiaobao-blog-boilerplate/home)
+
 <br/>
 
 Created by ShenBao on 2016.03.21
 
 <br/>
-
 
 ### 修改说明
 
@@ -39,4 +40,5 @@ Created by ShenBao on 2016.03.21
 - 注册disqus，添加disqus评论（需要科学上网）
 - 注册并添加了hypercomments评论，支持匿名评论,支持国内访问
 - 将hypercomments添加至config中
-- 添加search page,暂未开发
+- ~~添加search page,暂未开发~~
+
