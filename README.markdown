@@ -1,4 +1,8 @@
-# xiaobao-blog-boilerplate
+# ShenBao Blog
+
+## [我的博客] (https://shenbao.github.io/home)
+
+## [博客模板] (https://shenbao.github.io/xiaobao-blog-boilerplate/home)
 
 
 - <a href="https://shenbao.github.io/home" target="_blank">预览</a>
