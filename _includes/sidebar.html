@@ -1,0 +1,60 @@
+<div class="sidebar">
+
+    <section class="tags">
+        <hr>
+        <h5>
+            <a href="{{'/tags' | prepend: site.baseurl }}" title="tags">FEATURED TAGS</a>
+        </h5>
+        <div>
+            {% for tag in site.tags %}
+            <a href="{{ site.baseurl }}/tags#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="about">
+        <hr>
+        <h5>
+            <a href="{{'/about' | prepend: site.baseurl }}" title="about">ABOUT ME</a>
+        </h5>
+        <img src="{{ site.sidebar-about-icon || prepend: site.baseurl}}">
+        <p>
+            {{ site.sidebar-about-description }}
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.zhihu.com/people/shenbao/posts" target="_block" title="知乎">
+                    <i class="icon iconfont icon-zhihu0"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://weibo.com/ShenBaoPro" target="_block" title="微博">
+                    <i class="icon iconfont icon-weibo1"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://cnodejs.org/user/ShenBao" target="_block" title="CNode">
+                    <i class="icon iconfont icon-nodejs"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/ShenBao" target="_block" title="GitHub">
+                    <i class="icon iconfont icon-github"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="link">
+        <hr>
+        <h5>
+            LINK
+        </h5>
+        <div>
+            {% for item in site.data.config.sidebarLink %}
+            <a href="{{ item.path }}" target="_blank" title="{{ item.title }}">{{ item.title }}</a>
+            {% endfor %}
+        </div>
+    </section>
+
+</div>

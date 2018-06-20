@@ -1,0 +1,107 @@
+/**
+* toolbar
+*/
+
+.site-progress-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: 3px;
+    z-index: 99;
+    background-color: $mian-hover-color;
+}
+
+.site-tool-bar {
+    position: fixed;
+    z-index: 2000;
+    right: 40px;
+    bottom: 80px;
+    list-style: none;
+    margin: 0;
+    border: 1px solid #CCC;
+    padding: 0;
+    border-radius: 3px;
+    background: rgba(243, 240, 240, 0.99);
+    overflow: hidden;
+    li {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        border-bottom: 1px solid #CCC;
+        &:last-child {
+            border-bottom: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        i {
+            font-size: 25px !important;
+            color: #333;
+            font-weight: 500;
+        }
+        &:hover i {
+            display: none;
+        }
+        span {
+            display: none;
+            font-size: 10px;
+            color: #0085a1;
+            font-weight: 900;
+        }
+        &:hover span {
+            display: inline;
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    .site-tool-bar {
+        right: 20px;
+    }
+}
+
+.site-back-top {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    right: 40px;
+    bottom: 42px;
+    width: 35px;
+    height: 35px;
+    padding-top: 4px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    overflow: hidden;
+    background: rgba(243, 240, 240, 0.99);
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    i {
+        font-size: 25px !important;
+        color: #333;
+        font-weight: 500;
+    }
+    &:hover i {
+        display: none;
+    }
+    span {
+        display: none;
+        font-size: 10px;
+        color: #0085a1;
+        font-weight: 900;
+    }
+    &:hover span {
+        display: inline;
+    }
+}
+
+@include media-query($on-palm) {
+    .site-back-top {
+        right: 20px;
+    }
+}

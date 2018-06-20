@@ -1,0 +1,120 @@
+/**
+* sidebar
+*/
+
+.site-sidebar {
+    margin-bottom: 80px;
+    .sidebar {
+        hr {
+            border: 0;
+            border-top: 1px solid rgba(230, 230, 230, 0.99);
+        }
+        section {
+            h5 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                line-height: 1.1;
+                font-weight: 700;
+                font-size: 14px;
+                color: #ccc;
+                a {
+                    color: #ccc;
+                    cursor: pointer;
+                    text-decoration: none;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        .tags {
+            div {
+                margin-bottom: 10px;
+                a {
+                    display: inline-block;
+                    margin-right: 5px;
+                    color: #bfbfbf;
+                    cursor: pointer;
+                    border: 1px solid rgba(172, 163, 163, 0.8);
+                    border-radius: 999em;
+                    padding: 0 10px;
+                    line-height: 24px;
+                    font-size: 12px;
+                    text-decoration: none;
+                    margin: 0 1px;
+                    margin-bottom: 6px;
+                    &:hover {
+                        border-color: $main-color;
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        .about {
+            img {
+                display: block;
+                width: 150px;
+                max-width: 160px;
+                margin-left: 10px;
+            }
+            p {
+                margin: 12px 10px;
+                color: #bfbfbf;
+                font-size: 14px;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                margin-bottom: 12px;
+                padding: 0 10px;
+                li {
+                    display: inline-block;
+                    width: 42px;
+                    height: 42px;
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-decoration: none;
+                        &:hover i {
+                            color: $main-color !important;
+                        }
+                        .icon-zhihu0 {
+                            font-size: 32px !important;
+                        }
+                        .icon-nodejs:before {
+                            color: #FFFFFF;
+                            background-color: #bfbfbf;
+                            border-radius: 50%;
+                        }
+                        .icon-nodejs:hover:before {
+                            background-color: $mian-hover-color;
+                        }
+                        i {
+                            color: #bfbfbf;
+                            font-size: 28px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .link {
+            div {
+                padding: 0 5px;
+                a {
+                    display: inline-block;
+                    margin-right: 5px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    color: #bfbfbf;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

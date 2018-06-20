@@ -1,0 +1,161 @@
+/**
+ * Reset some basic elements
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+
+/**
+ * Basic styling
+ */
+
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    min-height: 100%;
+}
+
+
+/**
+ * Images
+ */
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/**
+ * Figures
+ */
+
+figure>img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+/**
+ * Headings
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $base-font-weight;
+}
+
+
+/**
+ * Links
+ */
+
+a {
+    color: $text-color;
+    text-decoration: none;
+    &:hover {
+        color: $mian-hover-color;
+        text-decoration: underline;
+    }
+    .social-media-list &:hover {
+        text-decoration: none;
+        .username {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+/**
+ * Blockquotes
+ */
+
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    @include relative-font-size(1.125);
+    letter-spacing: -1px;
+    font-style: italic;
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+ul,
+ol {
+    padding-left: 30px;
+}
+
+
+/**
+ * Clearfix
+ */
+
+%clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/**
+ * Icons
+ */
+
+.icon>svg {
+    display: inline-block;
+    vertical-align: middle;
+    path {
+        fill: $grey-color;
+    }
+}
+
+.social-media-list {
+    .icon {
+        padding-right: 5px;
+    }
+    li+li {
+        padding-top: 5px;
+    }
+}
+
+.site-main p {
+    line-height: 2 !important;
+}

@@ -1,28 +1,39 @@
 {
-    "name": "ShenBao-Blog",
-    "title": "ShenBao Blog",
-    "author": "ShenBao <shenbaoone@gmail.com>",
+    "name": "xiaobao-blog",
     "version": "1.0.0",
-    "homepage": "http://ShenBao.github.io",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ShenBao/ShenBao.github.io"
-    },
-    "bugs": "https://github.com/ShenBao/ShenBao.github.io/issues",
-    "devDependencies": {
-        "grunt": "~0.4.5",
-        "grunt-contrib-less": "~0.11.4",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-banner": "~0.2.3",
-        "grunt-contrib-uglify": "~0.5.1"
-    },
+    "description": "*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.",
+    "main": "index.js",
     "scripts": {
-        "preview": "cd _site; python -m SimpleHTTPServer 8020",
-        "py3view": "cd _site; python3 -m http.server 8020",
-        "watch"  : "grunt watch & npm run preview & jekyll serve -w",
-        "py3wa"  : "grunt watch & npm run py3view & jekyll serve -w",
-        "boil"   : "git push boilerplate boilerplate:master",
-        "push"   : "git push origin master --tag",
-        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
+        "clean": "rm -rf dist/* && rm -rf _site/*",
+        "clean:ps": "Remove-Item ./dist/*",
+        "watch": "webpack --watch",
+        "build": "webpack --progress",
+        "profile": "webpack --profile --json > stats/stats.json",
+        "start": "jekyll serve --port 8888",
+        "prod": "JEKYLL_ENV=production jekyll serve",
+        "dev": "jekyll serve --port 8888 --host 192.168.1.6",
+        "dev88": "jekyll serve --port 8888 --host 192.168.1.88",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "emojify.js": "^1.1.0",
+        "normalize.css": "^7.0.0"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^4.4.2",
+        "css-loader": "^0.28.9",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "file-loader": "^1.1.6",
+        "jquery": "^3.3.1",
+        "json-loader": "^0.5.7",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.1",
+        "uglifyjs-webpack-plugin": "^1.1.6",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.10.0",
+        "webpack-bundle-analyzer": "^2.9.2"
     }
 }

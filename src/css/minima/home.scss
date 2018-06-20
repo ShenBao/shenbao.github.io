@@ -1,0 +1,50 @@
+/**
+ * home
+ */
+
+.home {
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    h3 {
+        /* text-align: center; */
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .info {
+        padding-top: 40px;
+    }
+    .info a {
+        text-decoration: none;
+    }
+    .btn {
+        display: inline-block;
+        height: 38px;
+        width: 120px;
+        border: 1px solid $white-color;
+        border-radius: 19px;
+        color: $white-color;
+        line-height: 38px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        font-weight: normal;
+        margin-right: 10px;
+    }
+    .btn-primary {
+        background: $main-color-two;
+        border-color: $main-color-two;
+        &:hover {
+            background: $mian-hover-color-two;
+        }
+    }
+    .btn-secondary {
+        border: 1px solid $main-color-two;
+        border-radius: 100px;
+        color: $main-color-two;
+        &:hover {
+            background: $mian-hover-color-two;
+            color: $white-color;
+        }
+    }
+}

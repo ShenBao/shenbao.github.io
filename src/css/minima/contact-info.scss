@@ -1,0 +1,61 @@
+/**
+* contact-info
+*/
+
+.site-contact-info {
+    background: $main-background-color-one;
+    border-top: 1px solid rgba(230, 230, 230, 0.99);
+    .contact-info-content {
+        padding: 20px 10px;
+        font-size: 14px;
+        div {
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 16px;
+            height: 25px;
+            line-height: 25px;
+            clear: both;
+            a {
+                color: $main-color;
+            }
+            .about {
+                float: left;
+            }
+            .comment {
+                float: right;
+                font-size: 10px;
+                -webkit-transform: scale(0.8);
+                -moz-transform: scale(0.8);
+                -o-transform: scale(0.8);
+                transform: scale(0.8);
+            }
+        }
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+        clear: both;
+        li {
+            float: left;
+            width: 130px;
+            padding-left: 30px;
+            margin-top: 15px;
+            dt {
+                font-size: 16px;
+                color: $text-color;
+                line-height: 22px;
+                margin-bottom: 5px;
+            }
+            dd {
+                line-height: 25px;
+                color: $link-color;
+                a {
+                    color: $link-color;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

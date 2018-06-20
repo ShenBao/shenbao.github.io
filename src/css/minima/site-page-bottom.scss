@@ -1,0 +1,64 @@
+.site-page-bottom {
+    hr {
+        border: 0;
+        border-top: 1px solid rgba(230, 230, 230, 0.99);
+    }
+    section {
+        padding-top: 10px;
+        h5 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+            font-weight: 700;
+            font-size: 14px;
+            color: #ccc;
+            a {
+                color: #ccc;
+                cursor: pointer;
+                text-decoration: none;
+                &:hover {
+                    color: #0085a1;
+                }
+            }
+        }
+    }
+    .tags {
+        div {
+            margin-bottom: 10px;
+            a {
+                display: inline-block;
+                margin-right: 5px;
+                color: #bfbfbf;
+                cursor: pointer;
+                border: 1px solid rgba(172, 163, 163, 0.8);
+                border-radius: 999em;
+                padding: 0 10px;
+                line-height: 24px;
+                font-size: 12px;
+                text-decoration: none;
+                margin: 0 1px;
+                margin-bottom: 6px;
+                &:hover {
+                    border-color: $brand-color;
+                    color: $brand-color;
+                }
+            }
+        }
+    }
+    .link {
+        padding-bottom: 20px;
+        div {
+            padding: 0 5px;
+            a {
+                display: inline-block;
+                margin-right: 5px;
+                text-decoration: none;
+                font-size: 14px;
+                color: #bfbfbf;
+                &:hover {
+                    color: $brand-color;
+                }
+            }
+        }
+    }
+}

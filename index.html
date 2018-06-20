@@ -1,57 +1,57 @@
 ---
 layout: page
-description: "少抱怨，多思考，未来更美好！"
+title: "首页"
+is-show-title: false
+is-show-edit: false
 ---
 
-<p>公告1：这里暂时将不再更新，更多移步至
-    <a href="/shenbao-learn-notes" 
-        style="color: #0085a1;">shenbao-learn-notes</a>
-</p>
-<p>公告2：最近将切换模板</a>
-</p>
+<div class="index">
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
+    {% for post in paginator.posts %}
+    <div class="post-preview">
+        <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">
+                {{ post.subtitle }}
+            </h3>
+            {% endif %}
+            <div class="post-content-preview">
+                {{ post.content | strip_html | truncate:400 }}
+            </div>
+            <p class="post-meta">
+                Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.site_author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+        </a>
+    </div>
+    <hr>
+    {% endfor %}
+    
+    <!-- Pager -->
+    <h5 class="page-index">
+        Page: {{ paginator.page }} of 
+        <a href="{{ site.baseurl }}/page{{ paginator.total_pages }}/">
+            {{ paginator.total_pages }}
+        </a>
+    </h5>
+    
+    {% if paginator.total_pages > 1 %}
+    <div class="pager">
+        {% if paginator.previous_page %}
+            <a class="previous"
+                href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}">
+                &larr; Newer Posts
+            </a>
         {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+    
+        {% if paginator.next_page %}
+            <a class="next"
+                href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}">
+                Older Posts &rarr;
+            </a>
+        {% endif %}
+    </div>
+    {% endif %}
 </div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-<h5 style="text-align: center;">
-    Page: {{ paginator.page }} of 
-    <a href="/page{{ paginator.total_pages }}/">
-        {{ paginator.total_pages }}
-    </a>
-</h5>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}

@@ -1,0 +1,143 @@
+/**
+ * Posts
+ */
+
+.post {
+    color: $text-color;
+    .post-header {
+        margin-bottom: 15px;
+        .post-title {
+            @include relative-font-size(2.625);
+            letter-spacing: -1px;
+            line-height: 1;
+            @include media-query($on-laptop) {
+                @include relative-font-size(2.25);
+            }
+        }
+        .post-meta {
+            line-height: 2rem;
+            font-size: 14px;
+            span {
+                font-style: italic;
+                a {
+                    text-decoration: none;
+                }
+            }
+            time {
+                font-size: 12px;
+            }
+        }
+        .tags {
+            line-height: 1.2rem;
+            font-size: 14px;
+            font-style: italic;
+            .link {
+                text-decoration: none;
+            }
+            .tag {
+                display: inline-block;
+                padding: 0 5px;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        .not-catalog {
+            font-size: 10px;
+            line-height: 30px;
+            color: $brand-color;
+        }
+        @include media-query($on-palm) {
+            .not-catalog {
+                display: none;
+            }
+        }
+    }
+    .post-content {
+        margin-bottom: 10px;
+        line-height: 1.8;
+        font-size: 16px;
+        color: $text-color;
+        ul,ol{
+            margin: 10px 0;
+            > li {
+                line-height: 2;
+            }
+        }
+        p {
+            line-height: 2.2;
+            margin-bottom: 6px;
+        }
+        >h1 {
+            display: none;
+        }
+        >h2,
+        >h3,
+        >h4 {
+            font-weight: 900;
+            padding: 8px 0;
+        }
+    }
+    .the-end {
+        margin: 30px 0;
+    }
+    .author {
+        color: $main-color;
+    }
+    .pager {
+        margin: 20px 0 0 !important;
+        padding: 0px !important;
+        list-style: none;
+        overflow: hidden;
+        li {
+            display: inline-block;
+            width: 47%;
+            &:last-child {
+                float: right;
+            }
+            >a {
+                display: block;
+                border: 1px solid $ccc-color;
+                padding: 10px;
+                text-decoration: none;
+                text-align: center;
+            }
+            >span {
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 800;
+                letter-spacing: 1px;
+                padding: 10px;
+                background-color: $white-color;
+                border-radius: 0;
+                @media only screen and (min-width: 768px) {
+                    font-size: 14px;
+                    padding: 15px 25px;
+                }
+            }
+            >a {
+                color: $text-color;
+                ;
+            }
+            >a:hover,
+            >a:focus {
+                color: $white-color;
+                background-color: $main-color;
+                >span {
+                    color: $white-color;
+                }
+            }
+        }
+        .disabled {
+            >a,
+            >a:hover,
+            >a:focus,
+            >span {
+                color: lighten($text-color, 50%);
+                background-color: lighten($text-color, 25%);
+                ;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

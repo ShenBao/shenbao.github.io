@@ -1,0 +1,64 @@
+@charset "utf-8";
+$base-font-family: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+$text-color: #333 !default;
+$background-color: #fdfdfd !default;
+$brand-color: #2a7ae2 !default;
+$main-color: #0085a1 !default;
+$mian-hover-color: #4471ac !default;
+$assistant-color: #a3a3a3 !default;
+$assistant-hover-color: #666 !default;
+$main-color-two: #22ab28;
+$mian-hover-color-two: #42bd48;
+$link-color: #888 !default;
+$main-background-color-one: #f9f9f9;
+$main-background-color: #3a3737 !default;
+$white-color: white;
+$code-background-color: #eef;
+$ccc-color: #ccc;
+$ddd-color: #ddd;
+$f8f8f8-color: #f8f8f8;
+$grey-color: #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
+$spacing-unit: 30px !default;
+$content-width: 980px !default;
+$on-palm: 750px !default;
+$on-laptop: 980px !default;
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import "minima/normalize",
+"minima/base",
+"minima/layout",
+"minima/header",
+"minima/comments",
+"minima/contact-info",
+"minima/footer",
+"minima/page-list",
+"minima/home",
+"minima/index",
+"minima/tags",
+"minima/page",
+"minima/post",
+"minima/tectree",
+"minima/sidebar",
+"minima/toolbar",
+"minima/site-page-bottom",
+"minima/not-found",
+"minima/code",
+"../prism/prism.css";

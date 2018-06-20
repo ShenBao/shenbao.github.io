@@ -1,0 +1,79 @@
+[
+    {
+        "title": "第一阶段",
+        "type": 1,
+        "list": [
+            {
+                "basePath": "/md/custom/",
+                "list": [
+                    {
+                        "path": "test1",
+                        "title": "第1篇文章"
+                    },
+                    {
+                        "path": "test2",
+                        "title": "第2篇文章"
+                    }
+                ]
+            },
+            {
+                "basePath": "/md/custom/",
+                "list": [
+                    {
+                        "path": "test3",
+                        "title": "第3篇文章"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "第二阶段",
+        "type": 2,
+        "list": [
+            {
+                "title": "基础",
+                "basePath": "/md/custom2/",
+                "list": [
+                    {
+                        "path": "test1",
+                        "title": "第1篇文章"
+                    }
+                ]
+            },
+            {
+                "title": "高级",
+                "basePath": "/md/custom2/",
+                "list": [
+                    {
+                        "path": "test2",
+                        "title": "第1篇文章"
+                    },
+                    {
+                        "path": "test3",
+                        "title": "第2篇文章"
+                    }
+                ]
+            },
+            {
+                "title": "进阶",
+                "basePath": "/md/custom2/",
+                "list": [
+                    {
+                        "path": "test4",
+                        "title": "第1篇文章"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "第三阶段",
+        "type": 3,
+        "basePath": "/md/custom3/",
+        "list": [
+            ["test1", "第1篇文章"],
+            ["test2", "第2篇文章"]
+        ]
+    }
+]

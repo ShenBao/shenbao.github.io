@@ -1,0 +1,64 @@
+{
+    "about": {
+        "path": "about",
+        "title": "关于我"
+    },
+    "comments": {
+        "path": "comments",
+        "title": "反馈评论入口"
+    },
+    "group": [
+        {
+            "title": "社交账号",
+            "list": [
+                {
+                    "path": "https://weibo.com/ShenBaoPro",
+                    "title": "微博"
+                }
+            ]
+        },
+        {
+            "title": "社区",
+            "list": [
+                {
+                    "path": "https://github.com/ShenBao",
+                    "title": "GitHub"
+                },
+                {
+                    "path": "https://cnodejs.org/user/ShenBao",
+                    "title": "Cnode"
+                },
+                {
+                    "path": "https://www.zhihu.com/people/shenbao/posts",
+                    "title": "知乎"
+                }
+            ]
+        },
+        {
+            "title": "推荐链接",
+            "list": [
+                {
+                    "path": "https://shenbao.github.io",
+                    "title": "ShenBao Blog"
+                },
+                {
+                    "path": "https://shenbao.github.io/shenbao-learn-notes/comment/",
+                    "title": "ShenBao Notes"
+                }
+            ]
+        },
+        {
+            "title": "其他",
+            "list": [
+                {
+                    "path": "https://shenbao.github.io/xiaobao-blog-boilerplate",
+                    "title": "Blog Boilerplate"
+                },
+                {
+                    "path": "https://shenbao.github.io/angular-cnode",
+                    "title": "Angular CNode"
+                }
+            ]
+        }
+    ]
+}

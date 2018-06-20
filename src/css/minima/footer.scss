@@ -1,0 +1,43 @@
+/**
+* site-footer
+*/
+
+.site-footer {
+    background-color: $text-color;
+    color: $white-color;
+    line-height: 25px;
+    a {
+        color: $white-color;
+    }
+    .license-content {
+        max-width: 880px;
+        padding-top: 20px;
+        img {
+            margin-left: 20px;
+            height: 25px;
+        }
+        p {
+            padding: 0 10px;
+            font-size: 12px;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+    .copyright-content {
+        padding: 20px 0 40px;
+        p {
+            text-align: center;
+        }
+        a {
+            color: $white-color;
+        }
+        .theme {
+            font-size: 14px;
+            line-height: 20px;
+            .author {
+                color: $main-color;
+                font-weight: 900;
+            }
+        }
+    }
+}

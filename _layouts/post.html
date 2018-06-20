@@ -2,255 +2,98 @@
 layout: default
 ---
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
+<article class="post">
 
-<!-- Post Header -->
-<style type="text/css">
-    header.intro-header{
-        position: relative;
-        background-color: gray;
-        {% if page.header-img %}
-        background-image: url('{{ site.baseurl }}/{{ page.header-img }}')
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+            <span>
+                <a href="https://github.com/ShenBao"
+                    target="_blank">
+                {% if page.author %}
+                    {{ page.author }}
+                {% else %}
+                    {{ site.site_author }}
+                {% endif %}
+                </a>
+            </span> ·⊙·
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {% assign date_format = site.minima.date_format | default: "%B %-d, %Y %H:%M:%S" %}
+                {{ page.date | date: date_format }}
+            </time>
+        </p>
+        {% if page.tags %}
+            <p class="tags">
+                <a class="link" href="{{ " tags " | relative_url }}" target="_blank">分类：</a> {% for tag in page.tags %}
+                <a class="tag" href="{{ site.baseurl }}/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a> {% endfor %}
+            </p>
         {% endif %}
-    }
 
-    {% if page.header-mask %}
-    header.intro-header .header-mask{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background: rgba(0,0,0, {{ page.header-mask }});
-    }
-    {% endif %}
-</style>
-<header class="intro-header" >
-    <div class="header-mask"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        {% for tag in page.tags %}
-                        <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-                        {% endfor %}
-                    </div>
-                    <h1>{{ page.title }}</h1>
-                    {% comment %}
-                        always create a h2 for keeping the margin , Hux
-                    {% endcomment %}
-                    {% comment %} if page.subtitle {% endcomment %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% comment %} endif {% endcomment %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+        {% if page.is-show-catalog == false %}
+            <p class="not-catalog">提示：本篇文章已设置为不显示文章目录</p>
+        {% endif %}
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
+    </header>
 
-    <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
+    <div class="post-content" itemprop="articleBody">
+        {{ content }}
 
-				{{ content }}
-                
-                <br/>
-                <p>
-                    <b>【 THE END 】</b>
-                </p>
-                <p>
-                    -------- <a  href="https://github.com/{{site.github_username}}">
-                        {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
-                    </a>
-                     on {{ page.date | date: "%B %-d, %Y" }}
-                </p>
+        <p class="the-end" title="THE END | 全文结束">
+            <b>【 THE END 】</b>
+        </p>
 
-                <hr style="visibility: hidden;">
+        <p>
+            ------
+            <a href="https://github.com/{{site.github_username}}" class="author">
+                {% if page.author %}
+                    {{ page.author }}
+                {% else %}
+                    {{ site.site_author }}
+                {% endif %}
+            </a> on {{ page.date | date: "%B %-d, %Y" }}
+        </p>
 
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
+        <ul class="pager" id="site-pager">
+            <li class="previous">
+                {% if page.previous.url %}
+                    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         Previous<br>
                         <span>{{page.previous.title}}</span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
+                    </a>
+            {% endif %}
+            </li>
+            <li class="next">
+                {% if page.next.url %}
+                    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next<br>
                         <span>{{page.next.title}}</span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-                <br>
-                <hr>
-
-                {% if site.hypercomments_userid %}
-                <!--hypercomments 评论-->
-                <div id="hypercomments_widget"></div>
-                <!--hypercomments end-->
+                    </a>
                 {% endif %}
+            </li>
+        </ul>
 
-                {% if site.disqus_username %}
-                <hr>
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
-                {% endif %}
-            </div>  
-
-    <!-- Side Catalog Container -->
-        {% if page.catalog %}
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
-            </div>
-        {% endif %}
-
-    <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                <!-- Featured Tags -->
-                {% if site.featured-tags %}
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
-                    <div class="tags">
-        				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                				<a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
-                            {% endif %}
-        				{% endfor %}
-        			</div>
-                </section>
-                {% endif %}
-
-                <!-- Friends Blog -->
-                {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
-                <!-- Extends -->
-                {% if site.extends %}
-                <hr>
-                <h5>EXTENDS</h5>
-                <ul class="list-inline">
-                    {% for extend in site.extends %}
-                        <li><a href="{{extend.href}}">{{extend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
-            </div>
-        </div>
     </div>
+
+    {% include comments.html %}
+
 </article>
 
-{% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{page.id}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
+{% if page.is-show-catalog == false %}
+    <span></span>
+{% else %}
+    <div class="shenbao-toc-tree-catalog">
+        <div class="shenbao-toc-tree-content" id="shenbao-toc-tree-content">
+            <ul class="shenbao-toc-tree-body">
+            </ul>
+        </div>
+    </div>
 {% endif %}
 
-{% if site.hypercomments_userid %}
-<!--hypercomments 评论-->
-<script type="text/javascript">
-var hypercomments_userid = "{{site.hypercomments_userid}}";
-_hcwp = window._hcwp || [];
-_hcwp.push({widget:"Stream", widget_id: hypercomments_userid});
-(function() {
-if("HC_LOAD_INIT" in window)return;
-HC_LOAD_INIT = true;
-var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/"+hypercomments_userid+"/"+lang+"/widget.js";
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hcc, s.nextSibling);
-})();
-</script>
-<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget" style="display:none;">comments powered by HyperComments</a>
-<!--End hypercomments 评论-->
-{% endif %}
+{% include site-page-bottom.html %}
 
-{% if site.anchorjs %}
-<!-- async load function -->
+{% if page.catalogFile  %}
 <script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
+    window.ShenBaoBlogCatalogFileName = "{{ page.catalogFile }}";
+    window.PagePath = "/{{ page.path }}";
 </script>
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
-    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
-        anchors.options = {
-          visible: 'always',
-          placement: 'right',
-          icon: '#'
-        };
-        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-    })
-</script>
-<style>
-    /* place left on bigger screen */
-    @media all and (min-width: 800px) {
-        .anchorjs-link{
-            position: absolute;
-            left: -0.75em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
-        }
-    }
-</style>
 {% endif %}

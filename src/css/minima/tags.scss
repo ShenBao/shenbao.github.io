@@ -1,0 +1,37 @@
+/**
+* tags
+*/
+
+.site-tags {
+    .nav {
+        list-style: none;
+        padding: 0;
+        li {
+            display: inline-block;
+            font-size: 14px;
+            border: none;
+            line-height: 28px;
+            margin: 0 2px;
+            margin-bottom: 8px;
+            border-radius: 999em;
+            padding: 0 10px;
+            background-color: $main-color;
+            a {
+                color: $white-color;
+                text-decoration: none;
+            }
+            span {
+                display: inline-block;
+                min-width: 10px;
+                padding: 3px 7px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 1;
+                background-color: $white-color;
+                color: $main-color;
+                border-radius: 10px;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+/**
+ * Page 
+ */
+
+.site-page {
+    color: $text-color;
+    .page-main {
+        margin-bottom: 10px;
+        margin-right: 20px;
+        padding: 10px 0 50px;
+        float: left;
+        width: 680px;
+        line-height: 2;
+        font-size: 16px;
+        color: $text-color;
+        .page-header {
+            padding-bottom: 20px;
+            .page-title {
+                @include relative-font-size(2.625);
+                letter-spacing: -1px;
+                line-height: 1;
+                @include media-query($on-laptop) {
+                    @include relative-font-size(2.25);
+                }
+            }
+        }
+        a {
+            color: $text-color;
+        }
+    }
+    .site-sidebar {
+        float: right;
+        width: 220px;
+    }
+    .not-sidebar {
+        width: 100%;
+        margin-right: 0;
+    }
+    @include media-query($on-laptop) {
+        .page-main {
+            width: 100%;
+            margin-right: 0;
+        }
+        .site-sidebar {
+            display: none;
+        }
+    }
+}

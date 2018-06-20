@@ -1,0 +1,28 @@
+<!-- 顶部进度条 -->
+<div class="site-progress-indicator" id="progress-indicator" style="width: 0%;"></div>
+
+
+<ul class="site-tool-bar">
+    {% if page.is-show-edit == false %}
+    <span></span>
+    {% else %}
+    <li>
+        <a href="https://github.com/ShenBao{{ site.baseurl}}/blob/master/{{ page.path }}" target="_block">
+            <i class="icon iconfont icon-icon-"></i>
+            <span>编辑</span>
+        </a>
+    </li>
+    {% endif %}
+    <li>
+        <a href="{{ site.data.config.contactInfo.comments.path | relative_url }}" target="_block">
+            <i class="icon iconfont icon-survey"></i>
+            <span>反馈</span>
+        </a>
+    </li>
+    
+</ul>
+
+<div class="site-back-top" id="site-back-top">
+    <i class="icon iconfont icon-fanhuidingbu3"></i>
+    <span>顶部</span>
+</div>
