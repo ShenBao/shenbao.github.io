@@ -43,7 +43,7 @@ input: GFM                            # use Github Flavored Markdown !important
 highlighter: rouge
 syntax_highlighter: rouge
 highlight: true
-#permalink: pretty
+permalink: pretty
 exclude: ["README.md","node_modules","package.json","package-lock.json","webpack.config.js","src","LICENSE.txt"]
 
 
