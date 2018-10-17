@@ -9,18 +9,11 @@ is-show-sidebar: false
 >
 > 错了就要重新返回
 
-```json
-{
-    "name": "ShenBao",
-    "occupation": "Web App Developer"
-}
-```
-
 Hey,I'm <strong>
 <a href="https://github.com/ShenBao/" target="_blank">ShenBao</a>
-</strong>, Web App Developer.
+</strong>, 职业是软件工程师。
 
-自命有理想的手艺人，理想现实主义设计师。秉承技术源自生活服务于生活的原则，喜欢尝试各种新玩意儿，强迫症重度患者（匠心精神），乐于分享！ 
+自命有理想的手艺人，理想现实主义设计师。秉承技术源自生活服务于生活的原则，喜欢尝试各种新玩意儿，强迫症重度患者（匠心精神），乐于分享！
 
 ## INTRODUCTION
 
@@ -34,20 +27,21 @@ Hey,I'm <strong>
 - Blog: [ShenBao Blog](https://shenbao.github.io)
 - API DOC: [API DOC](https://shenbao.github.io/blog)
 
-
 <!-- ## TECHNOLOGY
 
 - HTML / HTML5
 - CSS / CSS3
-- LESS / SASS / SCSS
+- LESS / SASS
 - Bootstrap
-- JavaScript / ES5 / ES6
+- JavaScript / ES5 / ES6+
 - Jquery / Zepto
 - React / React-Router / Redux / React-Native
+- Vue / Vue-Router / Vuex
 - Webpack / Gulp / FIS3 / rollup
 - Nodejs / Express / Koa
 - doT.js / Jade / Handlebarsjs
-- Git / SVN / Shell -->
+- Liunx / Shell / Nginx / mysql
+- Git / SVN -->
 
 <!-- ## QR CODE
 
