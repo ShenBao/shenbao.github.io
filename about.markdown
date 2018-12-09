@@ -9,9 +9,8 @@ is-show-sidebar: false
 >
 > 错了就要重新返回
 
-Hey,I'm <strong>
-<a href="https://github.com/ShenBao/" target="_blank">ShenBao</a>
-</strong>, 职业是软件工程师。
+Hey,I'm <strong><a href="https://github.com/ShenBao/" target="_blank">ShenBao</a></strong>,
+职业是软件工程师。
 
 自命有理想的手艺人，理想现实主义设计师。秉承技术源自生活服务于生活的原则，喜欢尝试各种新玩意儿，强迫症重度患者（匠心精神），乐于分享！
 
@@ -25,7 +24,7 @@ Hey,I'm <strong>
 - 知乎: [沈宝](https://www.zhihu.com/people/shenbao)
 - GitHub: [ShenBao](https://github.com/ShenBao)
 - Blog: [ShenBao Blog](https://shenbao.github.io)
-- API DOC: [API DOC](https://shenbao.github.io/blog)
+<!-- - API DOC: [API DOC](https://shenbao.github.io/blog) -->
 
 <!-- ## TECHNOLOGY
 
