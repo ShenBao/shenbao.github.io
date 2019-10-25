@@ -5,6 +5,14 @@ is-show-title: false
 is-show-edit: false
 ---
 
+<script>
+    var isHome = (window.location.search || '').indexOf('h=1') !== -1;
+    if(!isHome) {
+        location.href = '/home';
+    }
+    console.log(isHome);
+</script>
+
 <div class="index">
 
     {% for post in paginator.posts %}
@@ -22,35 +30,34 @@ is-show-edit: false
                 {{ post.content | strip_html | truncate:400 }}
             </div>
             <p class="post-meta">
-                Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.site_author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+                Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.site_author }}{% endif %} on
+                {{ post.date | date: "%B %-d, %Y" }}
             </p>
         </a>
     </div>
     <hr>
     {% endfor %}
-    
+
     <!-- Pager -->
     <h5 class="page-index">
-        Page: {{ paginator.page }} of 
+        Page: {{ paginator.page }} of
         <a href="{{ site.baseurl }}/page{{ paginator.total_pages }}/">
             {{ paginator.total_pages }}
         </a>
     </h5>
-    
+
     {% if paginator.total_pages > 1 %}
     <div class="pager">
         {% if paginator.previous_page %}
-            <a class="previous"
-                href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}">
-                &larr; Newer Posts
-            </a>
+        <a class="previous" href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}?h=1">
+            &larr; Newer Posts
+        </a>
         {% endif %}
-    
+
         {% if paginator.next_page %}
-            <a class="next"
-                href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}">
-                Older Posts &rarr;
-            </a>
+        <a class="next" href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}?h=1">
+            Older Posts &rarr;
+        </a>
         {% endif %}
     </div>
     {% endif %}

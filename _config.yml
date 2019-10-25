@@ -1,4 +1,3 @@
-# Welcome to Jekyll!
 # Site settings
 
 seo_title: >-      # Site title
@@ -10,21 +9,20 @@ keywords: >-        # Site keywords
   小宝的博客、XiaoBao Blog、shenbaoone@gmail.com, 沈宝, ShenBao,小宝,XiaoBao，知秋，@沈宝,@小宝,@ShenBao,@XiaoBao,@知秋，沈宝的博客,秋思浪人,QiusiLangren，秋思浪人的博客,ShenBao Blog,知秋的博客， 博客, 个人网站, 互联网, 前端，web developer,JavaScript,Js,ES5,ES6,React,Redux,React Native,SVN,Git,Gulp,WebPack,Fis3.
 icon: "/img/config/author-100.png"
 
-
+github_repo: shenbao.github.io
 site_url: https://shenbao.github.io
 baseurl: ""   # the subpath of your site, e.g. /blog
 url: ""                           # site, e.g. http://example.com
 site_author:  ShenBao
 email: >-           # Site author email
   shenbaoone@gmail.com
-creat_time: 2018
+by_time: 2016 - Present
 
 sidebar-is-show: true  # false
 sidebar-about-icon: "/img/config/programmer.jpg"
 sidebar-about-description: "少抱怨，多思考，未来更美好 ！"
 
-
-# twitter_username: 
+# twitter_username:
 weibo_username:  ShenBaoPro
 zhihu_username:  shenbao
 github_username:  ShenBao
@@ -36,7 +34,6 @@ disqus_username: ShenBao
 paginate: 5
 paginate_path: "page:num"
 
-
 markdown: kramdown # kramdown,redcarpet,rdiscount
 kramdown:
 input: GFM                            # use Github Flavored Markdown !important
@@ -45,7 +42,6 @@ syntax_highlighter: rouge
 highlight: true
 permalink: pretty
 exclude: ["README.md","node_modules","package.json","package-lock.json","webpack.config.js","src","LICENSE.txt"]
-
 
 plugins:
   - jekyll-feed

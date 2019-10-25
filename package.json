@@ -1,7 +1,7 @@
 {
     "name": "xiaobao-blog",
     "version": "1.0.0",
-    "description": "*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.",
+    "description": "小宝的博客 | XiaoBao Blog ,这是小宝(@ShenBao)的个人博客，与你一起发现更大的世界。少抱怨，多思考，未来更美好！！",
     "main": "index.js",
     "scripts": {
         "clean": "rm -rf dist/* && rm -rf _site/*",

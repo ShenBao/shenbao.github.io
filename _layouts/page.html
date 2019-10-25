@@ -4,34 +4,33 @@ layout: default
 
 <div class="site-page">
 
-    <div class="page-main
-    
-      {% if site.sidebar-is-show != true or page.is-show-sidebar == false %}
-        not-sidebar">
-      {% else %}
-        ">
-      {% endif %}
+  <div class="page-main
 
-      {% if page.is-show-title == false %}
-        <span></span>
-      {% else %}
-      <header class="page-header">
-        <h1 class="page-title">{{ page.title | escape }}</h1>
-      </header>
-      {% endif %}
-
-      <div class="page-content">
-        {{ content }}
-      </div>
-    </div>
-    
     {% if site.sidebar-is-show != true or page.is-show-sidebar == false %}
-      <span></span>
+      not-sidebar">
     {% else %}
-      <div class="site-sidebar">
-          {% include sidebar.html %}
-      </div>
+      ">
     {% endif %}
 
+    {% if page.is-show-title == false %}
+      <span></span>
+    {% else %}
+    <header class="page-header">
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+    </header>
+    {% endif %}
+
+    <div class="page-content">
+      {{ content }}
+    </div>
   </div>
-  
+
+  {% if site.sidebar-is-show != true or page.is-show-sidebar == false %}
+    <span></span>
+  {% else %}
+    <div class="site-sidebar">
+        {% include sidebar.html %}
+    </div>
+  {% endif %}
+
+</div>

@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "自定义列表内容"
+title: '自定义列表内容'
 is-show-edit: false
 ---
 
-> 这里获取的是_data文件夹里的custom.json文件，需要在custom.json配置
+> 这里获取的是\_data 文件夹里的 custom.json 文件，需要在 custom.json 配置
 
 <!-- 注意：：：下面这一句是数据源 -->
+
 {% assign data = site.data.pages.custom %}
 
 <!-- 不想要标签可以注释掉以下代码片段 -->
@@ -58,7 +59,7 @@ is-show-edit: false
                     <li>
                         {% assign type1Index = type1Index | plus: 1 %}
                             <small>
-                                {{ type1Index }}. 
+                                {{ type1Index }}.
                             </small>
                             <a class="post-link"
                                 href="{{ site.baseurl }}{{ itemList.basePath }}{{ item.path }}"
@@ -89,7 +90,7 @@ is-show-edit: false
                     <li>
                         {% assign itemIndex = itemIndex | plus: 1 %}
                             <small>
-                            {{ type2Index }}-{{ itemIndex }}. 
+                            {{ type2Index }}-{{ itemIndex }}.
                             </small>
                             <a class="post-link"
                                 href="{{ site.baseurl }}{{ itemList.basePath }}{{ item.path }}"

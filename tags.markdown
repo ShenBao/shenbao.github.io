@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "标签"
+title: '标签'
 is-show-edit: false
 is-show-sidebar: false
 ---
@@ -24,8 +24,10 @@ is-show-sidebar: false
 </ul>
 
 <!-- 列表 -->
+
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+
   <div class="site-page-list">
       <legend id="{{ this_word | replace:' ','-' }}">
           <b>{{ this_word }}</b>
@@ -34,7 +36,7 @@ is-show-sidebar: false
           {% for post in site.tags[this_word] %}{% if post.title != null %}
           <li>
               <span>{{ post.date | date: "%F" }}</span>
-            <b class='raqu'> &raquo; </b> 
+            <b class='raqu'> &raquo; </b>
             <a href="{{ post.url | relative_url }}"
                 title="{{ post.title }}"
                 >
