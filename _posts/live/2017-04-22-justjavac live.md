@@ -86,7 +86,7 @@ tags:
     * 不一定，‘三个月工作经验，然后重复了五年’（注：好悲哀，就怕自己也这样）
     * 编程入门者：不要使用框架; 要知道为什么框架会存在，他解决了什么问题,他的缺点是啥
     * 使用框架是为了解决未来可能会出现的问题，迎接变化
-    * 文章：[抛开 React 学习 React](http://qianduan.guru/2016/03/27/Learning-React-Without-Using-React-Part1/?utm_source=tuicool&utm_medium=referral)
+    * 文章：[抛开 React 学习 React](https://medium.com/javascript-inside/learn-the-concepts-part-1-418952d968cb)
 
 8. 如果是js仅仅掌握，那要如何提升自己？具体怎么实现？
     * 编程思维的提升
